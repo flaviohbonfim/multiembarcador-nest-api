@@ -1,0 +1,1871 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <BuscarCargaResponse xmlns="http://tempuri.org/">
+         <BuscarCargaResult xmlns:a="http://schemas.datacontract.org/2004/07/SGT.WebService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:CodigoMensagem>0</a:CodigoMensagem>
+            <a:DataRetorno>04/08/2025 18:05:03</a:DataRetorno>
+            <a:Mensagem i:nil="true"/>
+            <a:Objeto xmlns:b="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Carga">
+               <b:CargaIntegracao>
+                  <b:AcondicionamentoCarga i:nil="true"/>
+                  <b:Adicional1 i:nil="true"/>
+                  <b:Adicional2 i:nil="true"/>
+                  <b:Adicional3 i:nil="true"/>
+                  <b:Adicional4 i:nil="true"/>
+                  <b:Adicional5 i:nil="true"/>
+                  <b:Adicional6 i:nil="true"/>
+                  <b:Adicional7 i:nil="true"/>
+                  <b:AntecipacaoICMS>false</b:AntecipacaoICMS>
+                  <b:Averbacao i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:BlocosCarregamento i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:CFOP>0</b:CFOP>
+                  <b:CNPJsDestinatariosNaoAutorizados i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <b:CTes i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.CTe"/>
+                  <b:CanalEntrega i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:CanalVenda i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:CargaCritica>false</b:CargaCritica>
+                  <b:CargaDePreCarga>false</b:CargaDePreCarga>
+                  <b:CargaPaletizada>false</b:CargaPaletizada>
+                  <b:CargaRefrigeradaPrecisaEnergia>false</b:CargaRefrigeradaPrecisaEnergia>
+                  <b:CargaSVMProprio>false</b:CargaSVMProprio>
+                  <b:CategoriaCargaEmbarcador i:nil="true"/>
+                  <b:CategoriaOS i:nil="true"/>
+                  <b:CentroCusto i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ChavesCTes i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <b:ClienteAdicional i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:ClienteDonoContainer i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:ClientePropostaComercial i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:ClusterRota i:nil="true"/>
+                  <b:CodigoAgrupamento i:nil="true"/>
+                  <b:CodigoAgrupamentoCarregamento i:nil="true"/>
+                  <b:CodigoBooking>0</b:CodigoBooking>
+                  <b:CodigoIntegracaoRota>3094</b:CodigoIntegracaoRota>
+                  <b:CodigoOrdemServico>0</b:CodigoOrdemServico>
+                  <b:CodigoPedidoCliente i:nil="true"/>
+                  <b:Companhia i:nil="true"/>
+                  <b:CondicaoExpedicao i:nil="true"/>
+                  <b:ConsultaValePedagio i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:Container i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ContainerADefinir>false</b:ContainerADefinir>
+                  <b:ContemCargaPerigosa>false</b:ContemCargaPerigosa>
+                  <b:ContemCargaRefrigerada>false</b:ContemCargaRefrigerada>
+                  <b:ConversaoCargaPaletizada i:nil="true"/>
+                  <b:CubagemTotal>0.169464</b:CubagemTotal>
+                  <b:CustoFrete i:nil="true"/>
+                  <b:DadosTransporteMaritimo i:nil="true"/>
+                  <b:DataAgendamento/>
+                  <b:DataAnulacaoCarga i:nil="true"/>
+                  <b:DataCancelamentoCarga i:nil="true"/>
+                  <b:DataColeta i:nil="true"/>
+                  <b:DataCriacaoCarga>01/08/2025 15:47:09</b:DataCriacaoCarga>
+                  <b:DataCriacaoPedidoERP i:nil="true"/>
+                  <b:DataCriacaoRemessa i:nil="true"/>
+                  <b:DataCriacaoVenda i:nil="true"/>
+                  <b:DataEstufagem i:nil="true"/>
+                  <b:DataFinalAcerto/>
+                  <b:DataFinalCarregamento>05/08/2025 00:00:00</b:DataFinalCarregamento>
+                  <b:DataInclusaoBooking i:nil="true"/>
+                  <b:DataInclusaoPCP i:nil="true"/>
+                  <b:DataInicialAcerto/>
+                  <b:DataInicioCarregamento>05/08/2025 00:00:00</b:DataInicioCarregamento>
+                  <b:DataInicioViagem/>
+                  <b:DataPrevisao i:nil="true"/>
+                  <b:DataPrevisaoChegadaDestinatario/>
+                  <b:DataPrevisaoEntrega/>
+                  <b:DataPrevisaoInicioViagem i:nil="true"/>
+                  <b:DataSeparacaoMercadoria i:nil="true"/>
+                  <b:DataTerminoCarregamento i:nil="true"/>
+                  <b:DataUltimaLiberacao i:nil="true"/>
+                  <b:DataValidade i:nil="true"/>
+                  <b:DeliveryTerm i:nil="true"/>
+                  <b:Deposito i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:DescricaoCarrierNavioViagem i:nil="true"/>
+                  <b:DescricaoRota>REDES METROPOLITANA - DEDICADA</b:DescricaoRota>
+                  <b:DescricaoTipoPropostaFeeder i:nil="true"/>
+                  <b:Despachante i:nil="true"/>
+                  <b:Destinatario xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                     <c:AdicionarComoOutroEndereco>false</c:AdicionarComoOutroEndereco>
+                     <c:AgendamentoExigeNotaFiscal i:nil="true"/>
+                     <c:AtualizarEnderecoPessoa>false</c:AtualizarEnderecoPessoa>
+                     <c:CMDID i:nil="true"/>
+                     <c:CNAE i:nil="true"/>
+                     <c:CPFCNPJ>23.668.138/0012-11</c:CPFCNPJ>
+                     <c:Cliente>false</c:Cliente>
+                     <c:ClienteExterior>false</c:ClienteExterior>
+                     <c:Codigo i:nil="true"/>
+                     <c:CodigoAlternativo i:nil="true"/>
+                     <c:CodigoAtividade>2</c:CodigoAtividade>
+                     <c:CodigoCategoria i:nil="true"/>
+                     <c:CodigoDocumento i:nil="true"/>
+                     <c:CodigoDocumentoFornecedor i:nil="true"/>
+                     <c:CodigoIntegracao>23668138001211</c:CodigoIntegracao>
+                     <c:DadosBancarios>
+                        <c:Agencia i:nil="true"/>
+                        <c:Banco i:nil="true"/>
+                        <c:DigitoAgencia i:nil="true"/>
+                        <c:NumeroConta i:nil="true"/>
+                        <c:PortadorConta i:nil="true"/>
+                        <c:TipoContaBanco>Corrente</c:TipoContaBanco>
+                     </c:DadosBancarios>
+                     <c:Email/>
+                     <c:EmailFatura i:nil="true"/>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro>CENTRO</d:Bairro>
+                        <d:CEP>83301000</d:CEP>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>58378</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>411950</e:CodigoIntegracao>
+                           <e:Descricao>PIRAQUARA</e:Descricao>
+                           <e:IBGE>4119509</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao>
+                              <d:CodigoIntegracao>22</d:CodigoIntegracao>
+                              <d:CodigoIntegracaoLocalidadePolo i:nil="true"/>
+                              <d:Descricao>ROTA 22-CLAMED PR</d:Descricao>
+                              <d:IBGELocalidadePolo>0</d:IBGELocalidadePolo>
+                           </e:Regiao>
+                           <e:SiglaUF>PR</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento i:nil="true"/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares>
+                           <d:Bairro>CENTRO</d:Bairro>
+                           <d:Complemento i:nil="true"/>
+                           <d:Endereco>CERRO AZUL, 1117 -</d:Endereco>
+                           <d:NumeroCarga i:nil="true"/>
+                           <d:NumeroLote i:nil="true"/>
+                        </d:DadosComplementares>
+                        <d:EnderecoConcatenado>CERRO AZUL, 1117 -</d:EnderecoConcatenado>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual>9099565524</d:InscricaoEstadual>
+                        <d:Latitude>-25.4534151</d:Latitude>
+                        <d:Logradouro>CERRO AZUL</d:Logradouro>
+                        <d:Longitude>-49.0721337</d:Longitude>
+                        <d:Numero>1117</d:Numero>
+                        <d:Telefone>4133823564</d:Telefone>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:ExigeAgendamento i:nil="true"/>
+                     <c:ExigeAgendamentoDescarga i:nil="true"/>
+                     <c:ExigirNumeroControleCliente>false</c:ExigirNumeroControleCliente>
+                     <c:ExigirNumeroNumeroReferenciaCliente>false</c:ExigirNumeroNumeroReferenciaCliente>
+                     <c:FormaAgendamento i:nil="true"/>
+                     <c:Fornecedor>false</c:Fornecedor>
+                     <c:GerarCIOT i:nil="true"/>
+                     <c:GrupoPessoa i:nil="true"/>
+                     <c:IM i:nil="true"/>
+                     <c:InativarCliente>false</c:InativarCliente>
+                     <c:IndicadorIE>ContribuinteICMS</c:IndicadorIE>
+                     <c:Latitude i:nil="true"/>
+                     <c:LinkAgendamento i:nil="true"/>
+                     <c:Longitude i:nil="true"/>
+                     <c:MDGCode i:nil="true"/>
+                     <c:MesoRegiao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService"/>
+                     <c:NaoEObrigatorioInformarNfeNaColeta i:nil="true"/>
+                     <c:NaoEnviarParaDocsys>false</c:NaoEnviarParaDocsys>
+                     <c:NaoExigePreenchimentoDeChecklistEntrega i:nil="true"/>
+                     <c:NomeFantasia>SUPERMERCADO PIRAQUARA LTDA</c:NomeFantasia>
+                     <c:NumeroCUITRUIT i:nil="true"/>
+                     <c:NumeroCartaoCIOT i:nil="true"/>
+                     <c:Observacao>CLIENTE AGENDADO</c:Observacao>
+                     <c:ParametroRateioFormulaExclusivo>todos</c:ParametroRateioFormulaExclusivo>
+                     <c:Protocolo>23668138001211</c:Protocolo>
+                     <c:RGIE>9099565524</c:RGIE>
+                     <c:RKST i:nil="true"/>
+                     <c:RNTRC i:nil="true"/>
+                     <c:RaioEmMetros>0</c:RaioEmMetros>
+                     <c:RazaoSocial>SUPERMERCADO PIRAQUARA LTDA</c:RazaoSocial>
+                     <c:RegimeTributario>NaoInformado</c:RegimeTributario>
+                     <c:RestricaoEntrega i:nil="true"/>
+                     <c:TempoAgendamento i:nil="true"/>
+                     <c:TipoEmissaoCTeDocumentosExclusivo>NaoInformado</c:TipoEmissaoCTeDocumentosExclusivo>
+                     <c:TipoFavorecidoCIOT i:nil="true"/>
+                     <c:TipoPagamentoCIOT i:nil="true"/>
+                     <c:TipoPessoa>Juridica</c:TipoPessoa>
+                     <c:ValidarValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                     <c:ValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                  </b:Destinatario>
+                  <b:Destino xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                     <c:Bairro>CENTRO</c:Bairro>
+                     <c:CEP>83301000</c:CEP>
+                     <c:CEPSemFormato i:nil="true"/>
+                     <c:Cidade xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                        <d:Atualizar>false</d:Atualizar>
+                        <d:Codigo>58378</d:Codigo>
+                        <d:CodigoDocumento i:nil="true"/>
+                        <d:CodigoIntegracao>411950</d:CodigoIntegracao>
+                        <d:Descricao>PIRAQUARA</d:Descricao>
+                        <d:IBGE>4119509</d:IBGE>
+                        <d:Pais>
+                           <c:CodigoPais>1058</c:CodigoPais>
+                           <c:NomePais>BRASIL</c:NomePais>
+                           <c:SiglaPais>BR</c:SiglaPais>
+                        </d:Pais>
+                        <d:RKST i:nil="true"/>
+                        <d:Regiao>
+                           <c:CodigoIntegracao>22</c:CodigoIntegracao>
+                           <c:CodigoIntegracaoLocalidadePolo i:nil="true"/>
+                           <c:Descricao>ROTA 22-CLAMED PR</c:Descricao>
+                           <c:IBGELocalidadePolo>0</c:IBGELocalidadePolo>
+                        </d:Regiao>
+                        <d:SiglaUF>PR</d:SiglaUF>
+                        <d:TipoEmissaoIntramunicipal>NaoEspecificado</d:TipoEmissaoIntramunicipal>
+                     </c:Cidade>
+                     <c:CodigoIntegracao i:nil="true"/>
+                     <c:CodigoTelefonicoPais i:nil="true"/>
+                     <c:Complemento i:nil="true"/>
+                     <c:DDDTelefone i:nil="true"/>
+                     <c:DadosComplementares>
+                        <c:Bairro>CENTRO</c:Bairro>
+                        <c:Complemento i:nil="true"/>
+                        <c:Endereco>CERRO AZUL, 1117 -</c:Endereco>
+                        <c:NumeroCarga i:nil="true"/>
+                        <c:NumeroLote i:nil="true"/>
+                     </c:DadosComplementares>
+                     <c:EnderecoConcatenado>CERRO AZUL, 1117 -</c:EnderecoConcatenado>
+                     <c:Estado i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                     <c:InscricaoEstadual>9099565524</c:InscricaoEstadual>
+                     <c:Latitude>-25.4534151</c:Latitude>
+                     <c:Logradouro>CERRO AZUL</c:Logradouro>
+                     <c:Longitude>-49.0721337</c:Longitude>
+                     <c:Numero>1117</c:Numero>
+                     <c:Telefone>4133823564</c:Telefone>
+                     <c:Telefone2 i:nil="true"/>
+                     <c:UF i:nil="true"/>
+                  </b:Destino>
+                  <b:DetalheEntrega i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:DiasItinerario>0</b:DiasItinerario>
+                  <b:DiasRestricaoEntrega i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Enumeradores"/>
+                  <b:DiasUteisPrazoTransportador>0</b:DiasUteisPrazoTransportador>
+                  <b:DirecionamentoOS i:nil="true"/>
+                  <b:Distancia>26.0000</b:Distancia>
+                  <b:Distribuicoes i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:Doca i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:DocumentoProvedor i:nil="true"/>
+                  <b:ETA/>
+                  <b:ETS i:nil="true"/>
+                  <b:Embarcador xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                     <c:AdicionarComoOutroEndereco>false</c:AdicionarComoOutroEndereco>
+                     <c:AgendamentoExigeNotaFiscal i:nil="true"/>
+                     <c:AtualizarEnderecoPessoa>false</c:AtualizarEnderecoPessoa>
+                     <c:CMDID i:nil="true"/>
+                     <c:CNAE i:nil="true"/>
+                     <c:CPFCNPJ>90.724.261/0009-02</c:CPFCNPJ>
+                     <c:Cliente>false</c:Cliente>
+                     <c:ClienteExterior>false</c:ClienteExterior>
+                     <c:Codigo i:nil="true"/>
+                     <c:CodigoAlternativo i:nil="true"/>
+                     <c:CodigoAtividade>1</c:CodigoAtividade>
+                     <c:CodigoCategoria i:nil="true"/>
+                     <c:CodigoDocumento i:nil="true"/>
+                     <c:CodigoDocumentoFornecedor i:nil="true"/>
+                     <c:CodigoIntegracao>90724261000902</c:CodigoIntegracao>
+                     <c:DadosBancarios>
+                        <c:Agencia i:nil="true"/>
+                        <c:Banco i:nil="true"/>
+                        <c:DigitoAgencia i:nil="true"/>
+                        <c:NumeroConta i:nil="true"/>
+                        <c:PortadorConta i:nil="true"/>
+                        <c:TipoContaBanco>Corrente</c:TipoContaBanco>
+                     </c:DadosBancarios>
+                     <c:Email/>
+                     <c:EmailFatura i:nil="true"/>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro>IPE</d:Bairro>
+                        <d:CEP>83055320</d:CEP>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>59749</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>412550</e:CodigoIntegracao>
+                           <e:Descricao>SAO JOSE DOS PINHAIS</e:Descricao>
+                           <e:IBGE>4125506</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao i:nil="true"/>
+                           <e:SiglaUF>PR</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento i:nil="true"/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares>
+                           <d:Bairro>IPE</d:Bairro>
+                           <d:Complemento i:nil="true"/>
+                           <d:Endereco>AV. RUI BARBOSA, 1900 -</d:Endereco>
+                           <d:NumeroCarga i:nil="true"/>
+                           <d:NumeroLote i:nil="true"/>
+                        </d:DadosComplementares>
+                        <d:EnderecoConcatenado>AV. RUI BARBOSA, 1900 -</d:EnderecoConcatenado>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual>9027537968</d:InscricaoEstadual>
+                        <d:Latitude>-25.4961376</d:Latitude>
+                        <d:Logradouro>AV. RUI BARBOSA</d:Logradouro>
+                        <d:Longitude>-49.1629243</d:Longitude>
+                        <d:Numero>1900</d:Numero>
+                        <d:Telefone>4132113100</d:Telefone>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:ExigeAgendamento i:nil="true"/>
+                     <c:ExigeAgendamentoDescarga i:nil="true"/>
+                     <c:ExigirNumeroControleCliente>false</c:ExigirNumeroControleCliente>
+                     <c:ExigirNumeroNumeroReferenciaCliente>false</c:ExigirNumeroNumeroReferenciaCliente>
+                     <c:FormaAgendamento i:nil="true"/>
+                     <c:Fornecedor>false</c:Fornecedor>
+                     <c:GerarCIOT i:nil="true"/>
+                     <c:GrupoPessoa i:nil="true"/>
+                     <c:IM i:nil="true"/>
+                     <c:InativarCliente>false</c:InativarCliente>
+                     <c:IndicadorIE>ContribuinteICMS</c:IndicadorIE>
+                     <c:Latitude i:nil="true"/>
+                     <c:LinkAgendamento i:nil="true"/>
+                     <c:Longitude i:nil="true"/>
+                     <c:MDGCode i:nil="true"/>
+                     <c:MesoRegiao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService"/>
+                     <c:NaoEObrigatorioInformarNfeNaColeta i:nil="true"/>
+                     <c:NaoEnviarParaDocsys>false</c:NaoEnviarParaDocsys>
+                     <c:NaoExigePreenchimentoDeChecklistEntrega i:nil="true"/>
+                     <c:NomeFantasia>ONIZ DIST - SJP</c:NomeFantasia>
+                     <c:NumeroCUITRUIT i:nil="true"/>
+                     <c:NumeroCartaoCIOT i:nil="true"/>
+                     <c:Observacao/>
+                     <c:ParametroRateioFormulaExclusivo>todos</c:ParametroRateioFormulaExclusivo>
+                     <c:Protocolo>90724261000902</c:Protocolo>
+                     <c:RGIE>9027537968</c:RGIE>
+                     <c:RKST i:nil="true"/>
+                     <c:RNTRC i:nil="true"/>
+                     <c:RaioEmMetros>0</c:RaioEmMetros>
+                     <c:RazaoSocial>ONIZ DISTRIBUIDORA S.A.</c:RazaoSocial>
+                     <c:RegimeTributario>NaoInformado</c:RegimeTributario>
+                     <c:RestricaoEntrega i:nil="true"/>
+                     <c:TempoAgendamento i:nil="true"/>
+                     <c:TipoEmissaoCTeDocumentosExclusivo>NaoInformado</c:TipoEmissaoCTeDocumentosExclusivo>
+                     <c:TipoFavorecidoCIOT i:nil="true"/>
+                     <c:TipoPagamentoCIOT i:nil="true"/>
+                     <c:TipoPessoa>Juridica</c:TipoPessoa>
+                     <c:ValidarValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                     <c:ValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                  </b:Embarcador>
+                  <b:Embarque i:nil="true"/>
+                  <b:EmpresaResponsavel i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:EntregaAgendada>false</b:EntregaAgendada>
+                  <b:EquipeVendas i:nil="true"/>
+                  <b:EscritorioVenda i:nil="true"/>
+                  <b:Especie i:nil="true"/>
+                  <b:EssePedidopossuiPedidoBonificacao>false</b:EssePedidopossuiPedidoBonificacao>
+                  <b:EssePedidopossuiPedidoVenda>false</b:EssePedidopossuiPedidoVenda>
+                  <b:ExecaoCab i:nil="true"/>
+                  <b:Expedidor i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:FaixaTemperatura i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:FecharCargaAutomaticamente>false</b:FecharCargaAutomaticamente>
+                  <b:Filial xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Filial">
+                     <c:Ativo>true</c:Ativo>
+                     <c:CNPJ>90.724.261/0009-02</c:CNPJ>
+                     <c:CodigoAtividade>1</c:CodigoAtividade>
+                     <c:CodigoIntegracao>100004</c:CodigoIntegracao>
+                     <c:Descricao>ONIZ - SAO JOSE DOS PINHAIS</c:Descricao>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro i:nil="true"/>
+                        <d:CEP i:nil="true"/>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>59749</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>412550</e:CodigoIntegracao>
+                           <e:Descricao>SAO JOSE DOS PINHAIS</e:Descricao>
+                           <e:IBGE>4125506</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao i:nil="true"/>
+                           <e:SiglaUF>PR</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento i:nil="true"/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares i:nil="true"/>
+                        <d:EnderecoConcatenado i:nil="true"/>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual i:nil="true"/>
+                        <d:Latitude i:nil="true"/>
+                        <d:Logradouro i:nil="true"/>
+                        <d:Longitude i:nil="true"/>
+                        <d:Numero i:nil="true"/>
+                        <d:Telefone i:nil="true"/>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:Protocolo>11</c:Protocolo>
+                     <c:TipoFilial>Filial</c:TipoFilial>
+                  </b:Filial>
+                  <b:FilialVenda i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Filial"/>
+                  <b:FormaAverbacaoCTE>Definitiva</b:FormaAverbacaoCTE>
+                  <b:FreeDeten>0</b:FreeDeten>
+                  <b:FreteNegociado i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:FreteRota i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Frete"/>
+                  <b:Fronteira i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Logistica"/>
+                  <b:FuncionarioGerente i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:FuncionarioSupervisor i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:FuncionarioVendedor i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:GrupoFreteMaterial i:nil="true"/>
+                  <b:HoraPrevisaoEntrega/>
+                  <b:HorarioEntrega i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:IDLoteTrizy>0</b:IDLoteTrizy>
+                  <b:IDPropostaTrizy>0</b:IDPropostaTrizy>
+                  <b:IMOClasse i:nil="true"/>
+                  <b:IMOSequencia i:nil="true"/>
+                  <b:IMOUnidade i:nil="true"/>
+                  <b:IdAutorizacao i:nil="true"/>
+                  <b:IdentificacaoAdicional i:nil="true"/>
+                  <b:IdentificadorRota i:nil="true"/>
+                  <b:ImpressoraNumero i:nil="true"/>
+                  <b:ImprimirObservacaoCTe>false</b:ImprimirObservacaoCTe>
+                  <b:InLand i:nil="true"/>
+                  <b:IndicLiberacaoOk>false</b:IndicLiberacaoOk>
+                  <b:IndicadorPOF i:nil="true"/>
+                  <b:IndicativoColetaEntrega>NaoInformado</b:IndicativoColetaEntrega>
+                  <b:InformarSeparacaoPedido i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                  <b:KMAsfaltoAteDestino>0</b:KMAsfaltoAteDestino>
+                  <b:KMChaoAteDestino>0</b:KMChaoAteDestino>
+                  <b:KMOrigemXDestino>13.000</b:KMOrigemXDestino>
+                  <b:Lacres i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <b:LiberarPagamento i:nil="true"/>
+                  <b:MasterBL i:nil="true"/>
+                  <b:Mesclar>false</b:Mesclar>
+                  <b:ModeloVeicular xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                     <c:Capacidade>0</c:Capacidade>
+                     <c:CodigoAgrupamentoCarga i:nil="true"/>
+                     <c:CodigoIntegracao>81</c:CodigoIntegracao>
+                     <c:CodigoInterno>0</c:CodigoInterno>
+                     <c:Descricao>CARRETA</c:Descricao>
+                     <c:DivisaoCapacidade/>
+                     <c:Protocolo>0</c:Protocolo>
+                     <c:QuantidadeExtraExcedenteTolerado>0.00</c:QuantidadeExtraExcedenteTolerado>
+                     <c:TipoModeloVeicular>Geral</c:TipoModeloVeicular>
+                     <c:ToleranciaExtra>0</c:ToleranciaExtra>
+                  </b:ModeloVeicular>
+                  <b:Motoristas xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                     <c:Motorista>
+                        <c:Ativo i:nil="true"/>
+                        <c:CPF>47354851396</c:CPF>
+                        <c:CategoriaCNH/>
+                        <c:Codigo>19004</c:Codigo>
+                        <c:CodigoIntegracao/>
+                        <c:DadosBancarios i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                        <c:DataAdmissao/>
+                        <c:DataDemissao i:nil="true"/>
+                        <c:DataEmissaoRG i:nil="true"/>
+                        <c:DataHabilitacao/>
+                        <c:DataNascimento/>
+                        <c:DataSuspensaoFim i:nil="true"/>
+                        <c:DataSuspensaoInicio i:nil="true"/>
+                        <c:DataValidadeGR i:nil="true"/>
+                        <c:DataVencimentoHabilitacao/>
+                        <c:Email/>
+                        <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                           <d:Bairro/>
+                           <d:CEP/>
+                           <d:CEPSemFormato i:nil="true"/>
+                           <d:Cidade i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                           <d:CodigoIntegracao i:nil="true"/>
+                           <d:CodigoTelefonicoPais i:nil="true"/>
+                           <d:Complemento/>
+                           <d:DDDTelefone i:nil="true"/>
+                           <d:DadosComplementares i:nil="true"/>
+                           <d:EnderecoConcatenado i:nil="true"/>
+                           <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                           <d:InscricaoEstadual i:nil="true"/>
+                           <d:Latitude i:nil="true"/>
+                           <d:Logradouro/>
+                           <d:Longitude i:nil="true"/>
+                           <d:Numero>S/N</d:Numero>
+                           <d:Telefone/>
+                           <d:Telefone2 i:nil="true"/>
+                           <d:UF i:nil="true"/>
+                        </c:Endereco>
+                        <c:Escolaridade i:nil="true"/>
+                        <c:EstadoCivil i:nil="true"/>
+                        <c:EstadoRG/>
+                        <c:ListaContatos i:nil="true"/>
+                        <c:ListaDadosBancarios i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                        <c:MotivoBloqueio i:nil="true"/>
+                        <c:Nome>AGENDA ONIZ</c:Nome>
+                        <c:NumeroCartao/>
+                        <c:NumeroHabilitacao/>
+                        <c:NumeroPISPASEP/>
+                        <c:OrgaoEmissorRG i:nil="true"/>
+                        <c:RG>00000000000000000</c:RG>
+                        <c:SituacaoColaborador i:nil="true"/>
+                        <c:Transportador xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                           <d:Atividade>0</d:Atividade>
+                           <d:Ativo i:nil="true"/>
+                           <d:CNPJ>43152609000199</d:CNPJ>
+                           <d:Certificado i:nil="true"/>
+                           <d:Codigo>0</d:Codigo>
+                           <d:CodigoDocumento/>
+                           <d:CodigoIntegracao/>
+                           <d:DadosBancarios i:nil="true"/>
+                           <d:DataValidadeIMO i:nil="true"/>
+                           <d:Emails/>
+                           <d:EmissaoDocumentosForaDoSistema>true</d:EmissaoDocumentosForaDoSistema>
+                           <d:Endereco xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                              <e:Bairro>ZONA RURAL</e:Bairro>
+                              <e:CEP>35340000</e:CEP>
+                              <e:CEPSemFormato i:nil="true"/>
+                              <e:Cidade xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                                 <f:Atualizar>false</f:Atualizar>
+                                 <f:Codigo>25976</f:Codigo>
+                                 <f:CodigoDocumento i:nil="true"/>
+                                 <f:CodigoIntegracao>31780</f:CodigoIntegracao>
+                                 <f:Descricao>BOM JESUS DO GALHO</f:Descricao>
+                                 <f:IBGE>3107802</f:IBGE>
+                                 <f:Pais>
+                                    <e:CodigoPais>1058</e:CodigoPais>
+                                    <e:NomePais>BRASIL</e:NomePais>
+                                    <e:SiglaPais>BR</e:SiglaPais>
+                                 </f:Pais>
+                                 <f:RKST i:nil="true"/>
+                                 <f:Regiao i:nil="true"/>
+                                 <f:SiglaUF>MG</f:SiglaUF>
+                                 <f:TipoEmissaoIntramunicipal>NaoEspecificado</f:TipoEmissaoIntramunicipal>
+                              </e:Cidade>
+                              <e:CodigoIntegracao i:nil="true"/>
+                              <e:CodigoTelefonicoPais i:nil="true"/>
+                              <e:Complemento/>
+                              <e:DDDTelefone i:nil="true"/>
+                              <e:DadosComplementares i:nil="true"/>
+                              <e:EnderecoConcatenado i:nil="true"/>
+                              <e:Estado i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                              <e:InscricaoEstadual i:nil="true"/>
+                              <e:Latitude i:nil="true"/>
+                              <e:Logradouro>CRG GRANDE</e:Logradouro>
+                              <e:Longitude i:nil="true"/>
+                              <e:Numero>S/N</e:Numero>
+                              <e:Telefone>(33) 3321-6722</e:Telefone>
+                              <e:Telefone2 i:nil="true"/>
+                              <e:UF i:nil="true"/>
+                           </d:Endereco>
+                           <d:IE>0041217430059</d:IE>
+                           <d:IMO i:nil="true"/>
+                           <d:InscricaoMunicipal/>
+                           <d:InscricaoST i:nil="true"/>
+                           <d:LiberacaoParaPagamentoAutomatico>false</d:LiberacaoParaPagamentoAutomatico>
+                           <d:NomeFantasia>DIVERSOS.</d:NomeFantasia>
+                           <d:Protocolo>30</d:Protocolo>
+                           <d:RNTRC>54260200</d:RNTRC>
+                           <d:RazaoSocial>DIVERSOS</d:RazaoSocial>
+                           <d:RegimeTributario>NaoInformado</d:RegimeTributario>
+                           <d:SimplesNacional>false</d:SimplesNacional>
+                           <d:TipoCIOT i:nil="true"/>
+                        </c:Transportador>
+                        <c:UtilizaMultiMobile i:nil="true"/>
+                        <c:tipoMotorista>Todos</c:tipoMotorista>
+                     </c:Motorista>
+                  </b:Motoristas>
+                  <b:NaoAtualizarDadosDoPedido>false</b:NaoAtualizarDadosDoPedido>
+                  <b:NaoComprarValePedagio>false</b:NaoComprarValePedagio>
+                  <b:NaoGlobalizarPedido>false</b:NaoGlobalizarPedido>
+                  <b:Navio i:nil="true"/>
+                  <b:NavioViagem i:nil="true"/>
+                  <b:NecessariaAverbacao i:nil="true"/>
+                  <b:NecessarioAjudante>false</b:NecessarioAjudante>
+                  <b:NecessitaAverbacao>false</b:NecessitaAverbacao>
+                  <b:NotasFiscais i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.NFe"/>
+                  <b:NumeroAcerto>0</b:NumeroAcerto>
+                  <b:NumeroAgendamento i:nil="true"/>
+                  <b:NumeroAutorizacaoColetaEntrega i:nil="true"/>
+                  <b:NumeroBL i:nil="true"/>
+                  <b:NumeroBooking i:nil="true"/>
+                  <b:NumeroCE i:nil="true"/>
+                  <b:NumeroCIOT i:nil="true"/>
+                  <b:NumeroCarga>505242</b:NumeroCarga>
+                  <b:NumeroCombis>0</b:NumeroCombis>
+                  <b:NumeroCombisPagas>0</b:NumeroCombisPagas>
+                  <b:NumeroContratoFreteCliente i:nil="true"/>
+                  <b:NumeroControlePedido i:nil="true"/>
+                  <b:NumeroDIEmbarque i:nil="true"/>
+                  <b:NumeroEXP i:nil="true"/>
+                  <b:NumeroEntregasFinais>0</b:NumeroEntregasFinais>
+                  <b:NumeroLacre1 i:nil="true"/>
+                  <b:NumeroLacre2 i:nil="true"/>
+                  <b:NumeroLacre3 i:nil="true"/>
+                  <b:NumeroOSMae i:nil="true"/>
+                  <b:NumeroOT i:nil="true"/>
+                  <b:NumeroOrdem i:nil="true"/>
+                  <b:NumeroOrdemServico i:nil="true"/>
+                  <b:NumeroPager i:nil="true"/>
+                  <b:NumeroPaletes>0</b:NumeroPaletes>
+                  <b:NumeroPaletesFracionado>0.0000</b:NumeroPaletesFracionado>
+                  <b:NumeroPaletesPagos>0</b:NumeroPaletesPagos>
+                  <b:NumeroPedidoCliente i:nil="true"/>
+                  <b:NumeroPedidoDevolucao i:nil="true"/>
+                  <b:NumeroPedidoEmbarcador>14707617</b:NumeroPedidoEmbarcador>
+                  <b:NumeroPedidoICT i:nil="true"/>
+                  <b:NumeroPedidoProvisorio i:nil="true"/>
+                  <b:NumeroPedidoTrocaNota i:nil="true"/>
+                  <b:NumeroPedidoVinculado i:nil="true"/>
+                  <b:NumeroPreCarga i:nil="true"/>
+                  <b:NumeroRastreioCorreios i:nil="true"/>
+                  <b:NumeroSemiPaletes>0</b:NumeroSemiPaletes>
+                  <b:NumeroSemiPaletesPagos>0</b:NumeroSemiPaletesPagos>
+                  <b:ObsCarregamento>CD PIRAQUARA</b:ObsCarregamento>
+                  <b:Observacao i:nil="true"/>
+                  <b:ObservacaoCTe i:nil="true"/>
+                  <b:ObservacaoInterna i:nil="true"/>
+                  <b:ObservacaoLocalEntrega i:nil="true"/>
+                  <b:ObservacaoProposta i:nil="true"/>
+                  <b:ObservacaoTransportador i:nil="true"/>
+                  <b:Onda i:nil="true"/>
+                  <b:OperadorCargaCPF>403.769.068-39</b:OperadorCargaCPF>
+                  <b:OperadorCargaEmail>ederson.gomes@braveo.com.br</b:OperadorCargaEmail>
+                  <b:OperadorCargaNome>Ederson Henrique Guedes Gomes</b:OperadorCargaNome>
+                  <b:Ordem i:nil="true"/>
+                  <b:OrdemColeta>0</b:OrdemColeta>
+                  <b:OrdemColetaProgramada>0</b:OrdemColetaProgramada>
+                  <b:OrdemEntrega>1</b:OrdemEntrega>
+                  <b:Origem xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                     <c:Bairro>IPE</c:Bairro>
+                     <c:CEP>83055320</c:CEP>
+                     <c:CEPSemFormato i:nil="true"/>
+                     <c:Cidade xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                        <d:Atualizar>false</d:Atualizar>
+                        <d:Codigo>59749</d:Codigo>
+                        <d:CodigoDocumento i:nil="true"/>
+                        <d:CodigoIntegracao>412550</d:CodigoIntegracao>
+                        <d:Descricao>SAO JOSE DOS PINHAIS</d:Descricao>
+                        <d:IBGE>4125506</d:IBGE>
+                        <d:Pais>
+                           <c:CodigoPais>1058</c:CodigoPais>
+                           <c:NomePais>BRASIL</c:NomePais>
+                           <c:SiglaPais>BR</c:SiglaPais>
+                        </d:Pais>
+                        <d:RKST i:nil="true"/>
+                        <d:Regiao i:nil="true"/>
+                        <d:SiglaUF>PR</d:SiglaUF>
+                        <d:TipoEmissaoIntramunicipal>NaoEspecificado</d:TipoEmissaoIntramunicipal>
+                     </c:Cidade>
+                     <c:CodigoIntegracao i:nil="true"/>
+                     <c:CodigoTelefonicoPais i:nil="true"/>
+                     <c:Complemento i:nil="true"/>
+                     <c:DDDTelefone i:nil="true"/>
+                     <c:DadosComplementares>
+                        <c:Bairro>IPE</c:Bairro>
+                        <c:Complemento i:nil="true"/>
+                        <c:Endereco>AV. RUI BARBOSA, 1900 -</c:Endereco>
+                        <c:NumeroCarga i:nil="true"/>
+                        <c:NumeroLote i:nil="true"/>
+                     </c:DadosComplementares>
+                     <c:EnderecoConcatenado>AV. RUI BARBOSA, 1900 -</c:EnderecoConcatenado>
+                     <c:Estado i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                     <c:InscricaoEstadual>9027537968</c:InscricaoEstadual>
+                     <c:Latitude>-25.4961376</c:Latitude>
+                     <c:Logradouro>AV. RUI BARBOSA</c:Logradouro>
+                     <c:Longitude>-49.1629243</c:Longitude>
+                     <c:Numero>1900</c:Numero>
+                     <c:Telefone>4132113100</c:Telefone>
+                     <c:Telefone2 i:nil="true"/>
+                     <c:UF i:nil="true"/>
+                  </b:Origem>
+                  <b:PagamentoMaritimo i:nil="true"/>
+                  <b:ParametroIdentificacaoCliente i:nil="true"/>
+                  <b:Parqueada>false</b:Parqueada>
+                  <b:PedidoAlterado>false</b:PedidoAlterado>
+                  <b:PedidoBloqueado>false</b:PedidoBloqueado>
+                  <b:PedidoComRestricaoData>false</b:PedidoComRestricaoData>
+                  <b:PedidoDeDevolucao>false</b:PedidoDeDevolucao>
+                  <b:PedidoDeSVMTerceiro>false</b:PedidoDeSVMTerceiro>
+                  <b:PedidoPallet>false</b:PedidoPallet>
+                  <b:PedidoTrocaNota>false</b:PedidoTrocaNota>
+                  <b:PercentualADValorem>0.000000</b:PercentualADValorem>
+                  <b:PercursosMDFe i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                  <b:PeriodoEntrega i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:PermiteQuebraPedidoMultiplosCarregamentos>false</b:PermiteQuebraPedidoMultiplosCarregamentos>
+                  <b:PesoBruto>73.648</b:PesoBruto>
+                  <b:PesoLiquido>0.000</b:PesoLiquido>
+                  <b:PesoTotalPaletes>0.000000</b:PesoTotalPaletes>
+                  <b:PlacasCarregamento i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <b:PontoPartida i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:PortoChegada i:nil="true"/>
+                  <b:PortoDestino i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:PortoOrigem i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:PortoSaida i:nil="true"/>
+                  <b:PortoViagemDestino i:nil="true"/>
+                  <b:PortoViagemOrigem i:nil="true"/>
+                  <b:PossuiGenset>false</b:PossuiGenset>
+                  <b:PossuiPendenciaRoteirizacao>false</b:PossuiPendenciaRoteirizacao>
+                  <b:PrevisaoEntregaTransportador i:nil="true"/>
+                  <b:PrevisaoSaidaDestino i:nil="true"/>
+                  <b:PrevisaoStopTracking i:nil="true"/>
+                  <b:PrevisaoTerminoViagem i:nil="true"/>
+                  <b:PrimeiraPosicaoMonitoramento i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Monitoramento"/>
+                  <b:ProcessamentoEspecial i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ProdutoPredominante i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:ProdutoVolumoso>false</b:ProdutoVolumoso>
+                  <b:Produtos xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido">
+                     <c:Produto>
+                        <c:Altura>0</c:Altura>
+                        <c:AlturaCM>0</c:AlturaCM>
+                        <c:Atualizar>false</c:Atualizar>
+                        <c:CSTICMS i:nil="true"/>
+                        <c:Camada>0</c:Camada>
+                        <c:CamposPersonalizados i:nil="true"/>
+                        <c:Canal i:nil="true"/>
+                        <c:CanalDistribuicao i:nil="true"/>
+                        <c:ClasseLogistica i:nil="true"/>
+                        <c:Codigo>0</c:Codigo>
+                        <c:CodigoArmazem i:nil="true"/>
+                        <c:CodigoDocumentacao i:nil="true"/>
+                        <c:CodigoEAN i:nil="true"/>
+                        <c:CodigoGrupoProduto>530</c:CodigoGrupoProduto>
+                        <c:CodigoNCM i:nil="true"/>
+                        <c:CodigoNFCI i:nil="true"/>
+                        <c:CodigoOrganizacao i:nil="true"/>
+                        <c:CodigoProduto>22506</c:CodigoProduto>
+                        <c:CodigocEAN i:nil="true"/>
+                        <c:Comprimento>0</c:Comprimento>
+                        <c:ComprimentoCM>0</c:ComprimentoCM>
+                        <c:Conversao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:DescricaoGrupoProduto>P&amp;G</c:DescricaoGrupoProduto>
+                        <c:DescricaoProduto>AMACIANTE DOWNY BRISA SUAVE 500ml</c:DescricaoProduto>
+                        <c:EnderecoProduto i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:Filiais i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:FinalidadeProduto i:nil="true"/>
+                        <c:IdDemanda i:nil="true"/>
+                        <c:Imuno i:nil="true"/>
+                        <c:InativarCadastro>false</c:InativarCadastro>
+                        <c:Largura>0</c:Largura>
+                        <c:LarguraCM>0</c:LarguraCM>
+                        <c:Lastro>0</c:Lastro>
+                        <c:LinhaSeparacao i:nil="true"/>
+                        <c:MarcaProduto i:nil="true"/>
+                        <c:Mesclar>false</c:Mesclar>
+                        <c:MetroCubito>0.015892</c:MetroCubito>
+                        <c:NumeroPedidoCompra i:nil="true"/>
+                        <c:Observacao i:nil="true"/>
+                        <c:ObservacaoCarga i:nil="true"/>
+                        <c:Organizacao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:OrigemMercadoria i:nil="true"/>
+                        <c:PalletFechado>false</c:PalletFechado>
+                        <c:PesoLiquidoUnitario>0</c:PesoLiquidoUnitario>
+                        <c:PesoTotalEmbalagem>0.000000</c:PesoTotalEmbalagem>
+                        <c:PesoUnitario>6.772000</c:PesoUnitario>
+                        <c:ProdutoDivisoesCapacidade i:nil="true"/>
+                        <c:ProdutoLotes i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.NFe"/>
+                        <c:ProdutoSimulado>false</c:ProdutoSimulado>
+                        <c:QtdPalet>0</c:QtdPalet>
+                        <c:Quantidade>4.000000</c:Quantidade>
+                        <c:QuantidadeCaixa>0</c:QuantidadeCaixa>
+                        <c:QuantidadeCaixaPorPallet>0</c:QuantidadeCaixaPorPallet>
+                        <c:QuantidadeCaixasVazias>0</c:QuantidadeCaixasVazias>
+                        <c:QuantidadeCaixasVaziasPlanejadas>0</c:QuantidadeCaixasVaziasPlanejadas>
+                        <c:QuantidadeEmbalagem>0.000000</c:QuantidadeEmbalagem>
+                        <c:QuantidadePallet>0</c:QuantidadePallet>
+                        <c:QuantidadePlanejada>0.000000</c:QuantidadePlanejada>
+                        <c:QuantidadePorCaixa>0</c:QuantidadePorCaixa>
+                        <c:Setor i:nil="true"/>
+                        <c:SetorLogistica i:nil="true"/>
+                        <c:SiglaModalidade i:nil="true"/>
+                        <c:SiglaUnidade i:nil="true"/>
+                        <c:TemperaturaTransporte i:nil="true"/>
+                        <c:TipoEmbalagem i:nil="true"/>
+                        <c:UnidadeMedida i:nil="true"/>
+                        <c:UnidadeMedidaPeso i:nil="true"/>
+                        <c:ValorDesconto>0</c:ValorDesconto>
+                        <c:ValorTotal>0</c:ValorTotal>
+                        <c:ValorUnitario>159.400000</c:ValorUnitario>
+                     </c:Produto>
+                     <c:Produto>
+                        <c:Altura>0</c:Altura>
+                        <c:AlturaCM>0</c:AlturaCM>
+                        <c:Atualizar>false</c:Atualizar>
+                        <c:CSTICMS i:nil="true"/>
+                        <c:Camada>0</c:Camada>
+                        <c:CamposPersonalizados i:nil="true"/>
+                        <c:Canal i:nil="true"/>
+                        <c:CanalDistribuicao i:nil="true"/>
+                        <c:ClasseLogistica i:nil="true"/>
+                        <c:Codigo>0</c:Codigo>
+                        <c:CodigoArmazem i:nil="true"/>
+                        <c:CodigoDocumentacao i:nil="true"/>
+                        <c:CodigoEAN i:nil="true"/>
+                        <c:CodigoGrupoProduto>530</c:CodigoGrupoProduto>
+                        <c:CodigoNCM i:nil="true"/>
+                        <c:CodigoNFCI i:nil="true"/>
+                        <c:CodigoOrganizacao i:nil="true"/>
+                        <c:CodigoProduto>12038</c:CodigoProduto>
+                        <c:CodigocEAN i:nil="true"/>
+                        <c:Comprimento>0</c:Comprimento>
+                        <c:ComprimentoCM>0</c:ComprimentoCM>
+                        <c:Conversao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:DescricaoGrupoProduto>P&amp;G</c:DescricaoGrupoProduto>
+                        <c:DescricaoProduto>AMACIANTE DOWNY BRISA DE VERAO 500ml</c:DescricaoProduto>
+                        <c:EnderecoProduto i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:Filiais i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:FinalidadeProduto i:nil="true"/>
+                        <c:IdDemanda i:nil="true"/>
+                        <c:Imuno i:nil="true"/>
+                        <c:InativarCadastro>false</c:InativarCadastro>
+                        <c:Largura>0</c:Largura>
+                        <c:LarguraCM>0</c:LarguraCM>
+                        <c:Lastro>0</c:Lastro>
+                        <c:LinhaSeparacao i:nil="true"/>
+                        <c:MarcaProduto i:nil="true"/>
+                        <c:Mesclar>false</c:Mesclar>
+                        <c:MetroCubito>0.001175</c:MetroCubito>
+                        <c:NumeroPedidoCompra i:nil="true"/>
+                        <c:Observacao i:nil="true"/>
+                        <c:ObservacaoCarga i:nil="true"/>
+                        <c:Organizacao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:OrigemMercadoria i:nil="true"/>
+                        <c:PalletFechado>false</c:PalletFechado>
+                        <c:PesoLiquidoUnitario>0</c:PesoLiquidoUnitario>
+                        <c:PesoTotalEmbalagem>0.000000</c:PesoTotalEmbalagem>
+                        <c:PesoUnitario>6.400000</c:PesoUnitario>
+                        <c:ProdutoDivisoesCapacidade i:nil="true"/>
+                        <c:ProdutoLotes i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.NFe"/>
+                        <c:ProdutoSimulado>false</c:ProdutoSimulado>
+                        <c:QtdPalet>0</c:QtdPalet>
+                        <c:Quantidade>3.000000</c:Quantidade>
+                        <c:QuantidadeCaixa>0</c:QuantidadeCaixa>
+                        <c:QuantidadeCaixaPorPallet>0</c:QuantidadeCaixaPorPallet>
+                        <c:QuantidadeCaixasVazias>0</c:QuantidadeCaixasVazias>
+                        <c:QuantidadeCaixasVaziasPlanejadas>0</c:QuantidadeCaixasVaziasPlanejadas>
+                        <c:QuantidadeEmbalagem>0.000000</c:QuantidadeEmbalagem>
+                        <c:QuantidadePallet>0</c:QuantidadePallet>
+                        <c:QuantidadePlanejada>0.000000</c:QuantidadePlanejada>
+                        <c:QuantidadePorCaixa>0</c:QuantidadePorCaixa>
+                        <c:Setor i:nil="true"/>
+                        <c:SetorLogistica i:nil="true"/>
+                        <c:SiglaModalidade i:nil="true"/>
+                        <c:SiglaUnidade i:nil="true"/>
+                        <c:TemperaturaTransporte i:nil="true"/>
+                        <c:TipoEmbalagem i:nil="true"/>
+                        <c:UnidadeMedida i:nil="true"/>
+                        <c:UnidadeMedidaPeso i:nil="true"/>
+                        <c:ValorDesconto>0</c:ValorDesconto>
+                        <c:ValorTotal>0</c:ValorTotal>
+                        <c:ValorUnitario>159.400000</c:ValorUnitario>
+                     </c:Produto>
+                     <c:Produto>
+                        <c:Altura>0</c:Altura>
+                        <c:AlturaCM>0</c:AlturaCM>
+                        <c:Atualizar>false</c:Atualizar>
+                        <c:CSTICMS i:nil="true"/>
+                        <c:Camada>0</c:Camada>
+                        <c:CamposPersonalizados i:nil="true"/>
+                        <c:Canal i:nil="true"/>
+                        <c:CanalDistribuicao i:nil="true"/>
+                        <c:ClasseLogistica i:nil="true"/>
+                        <c:Codigo>0</c:Codigo>
+                        <c:CodigoArmazem i:nil="true"/>
+                        <c:CodigoDocumentacao i:nil="true"/>
+                        <c:CodigoEAN i:nil="true"/>
+                        <c:CodigoGrupoProduto>530</c:CodigoGrupoProduto>
+                        <c:CodigoNCM i:nil="true"/>
+                        <c:CodigoNFCI i:nil="true"/>
+                        <c:CodigoOrganizacao i:nil="true"/>
+                        <c:CodigoProduto>21104</c:CodigoProduto>
+                        <c:CodigocEAN i:nil="true"/>
+                        <c:Comprimento>0</c:Comprimento>
+                        <c:ComprimentoCM>0</c:ComprimentoCM>
+                        <c:Conversao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:DescricaoGrupoProduto>P&amp;G</c:DescricaoGrupoProduto>
+                        <c:DescricaoProduto>AMACIANTE DOWNY MAIS INTENSO BRISA 500ml</c:DescricaoProduto>
+                        <c:EnderecoProduto i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Produtos"/>
+                        <c:Filiais i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:FinalidadeProduto i:nil="true"/>
+                        <c:IdDemanda i:nil="true"/>
+                        <c:Imuno i:nil="true"/>
+                        <c:InativarCadastro>false</c:InativarCadastro>
+                        <c:Largura>0</c:Largura>
+                        <c:LarguraCM>0</c:LarguraCM>
+                        <c:Lastro>0</c:Lastro>
+                        <c:LinhaSeparacao i:nil="true"/>
+                        <c:MarcaProduto i:nil="true"/>
+                        <c:Mesclar>false</c:Mesclar>
+                        <c:MetroCubito>0.001324</c:MetroCubito>
+                        <c:NumeroPedidoCompra i:nil="true"/>
+                        <c:Observacao i:nil="true"/>
+                        <c:ObservacaoCarga i:nil="true"/>
+                        <c:Organizacao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService.Pedido"/>
+                        <c:OrigemMercadoria i:nil="true"/>
+                        <c:PalletFechado>false</c:PalletFechado>
+                        <c:PesoLiquidoUnitario>0</c:PesoLiquidoUnitario>
+                        <c:PesoTotalEmbalagem>0.000000</c:PesoTotalEmbalagem>
+                        <c:PesoUnitario>6.840000</c:PesoUnitario>
+                        <c:ProdutoDivisoesCapacidade i:nil="true"/>
+                        <c:ProdutoLotes i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.NFe"/>
+                        <c:ProdutoSimulado>false</c:ProdutoSimulado>
+                        <c:QtdPalet>0</c:QtdPalet>
+                        <c:Quantidade>4.000000</c:Quantidade>
+                        <c:QuantidadeCaixa>0</c:QuantidadeCaixa>
+                        <c:QuantidadeCaixaPorPallet>0</c:QuantidadeCaixaPorPallet>
+                        <c:QuantidadeCaixasVazias>0</c:QuantidadeCaixasVazias>
+                        <c:QuantidadeCaixasVaziasPlanejadas>0</c:QuantidadeCaixasVaziasPlanejadas>
+                        <c:QuantidadeEmbalagem>0.000000</c:QuantidadeEmbalagem>
+                        <c:QuantidadePallet>0</c:QuantidadePallet>
+                        <c:QuantidadePlanejada>0.000000</c:QuantidadePlanejada>
+                        <c:QuantidadePorCaixa>0</c:QuantidadePorCaixa>
+                        <c:Setor i:nil="true"/>
+                        <c:SetorLogistica i:nil="true"/>
+                        <c:SiglaModalidade i:nil="true"/>
+                        <c:SiglaUnidade i:nil="true"/>
+                        <c:TemperaturaTransporte i:nil="true"/>
+                        <c:TipoEmbalagem i:nil="true"/>
+                        <c:UnidadeMedida i:nil="true"/>
+                        <c:UnidadeMedidaPeso i:nil="true"/>
+                        <c:ValorDesconto>0</c:ValorDesconto>
+                        <c:ValorTotal>0</c:ValorTotal>
+                        <c:ValorUnitario>159.400000</c:ValorUnitario>
+                     </c:Produto>
+                  </b:Produtos>
+                  <b:PropostaComercial i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ProtocoloCarga>6440601</b:ProtocoloCarga>
+                  <b:ProtocoloCotacao>0</b:ProtocoloCotacao>
+                  <b:ProtocoloPedido>4830023</b:ProtocoloPedido>
+                  <b:ProvedorOS i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:QuantidadeConhecimentosTaxaDocumentacao>0</b:QuantidadeConhecimentosTaxaDocumentacao>
+                  <b:QuantidadeContainerBooking>0</b:QuantidadeContainerBooking>
+                  <b:QuantidadeTipoContainerReserva>0</b:QuantidadeTipoContainerReserva>
+                  <b:QuantidadeVolumes>11</b:QuantidadeVolumes>
+                  <b:RastreamentoPedido>https://braveo.multiembarcador.com.br/sua-entrega/6c3d62e13e394c3393fd99b50f2db936</b:RastreamentoPedido>
+                  <b:RealizarCobrancaTaxaDocumentacao>false</b:RealizarCobrancaTaxaDocumentacao>
+                  <b:Recebedor i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                  <b:RefEXPTransferencia i:nil="true"/>
+                  <b:RegiaoDestino i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade"/>
+                  <b:Remetente xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                     <c:AdicionarComoOutroEndereco>false</c:AdicionarComoOutroEndereco>
+                     <c:AgendamentoExigeNotaFiscal i:nil="true"/>
+                     <c:AtualizarEnderecoPessoa>false</c:AtualizarEnderecoPessoa>
+                     <c:CMDID i:nil="true"/>
+                     <c:CNAE i:nil="true"/>
+                     <c:CPFCNPJ>90.724.261/0009-02</c:CPFCNPJ>
+                     <c:Cliente>false</c:Cliente>
+                     <c:ClienteExterior>false</c:ClienteExterior>
+                     <c:Codigo i:nil="true"/>
+                     <c:CodigoAlternativo i:nil="true"/>
+                     <c:CodigoAtividade>1</c:CodigoAtividade>
+                     <c:CodigoCategoria i:nil="true"/>
+                     <c:CodigoDocumento i:nil="true"/>
+                     <c:CodigoDocumentoFornecedor i:nil="true"/>
+                     <c:CodigoIntegracao>90724261000902</c:CodigoIntegracao>
+                     <c:DadosBancarios>
+                        <c:Agencia i:nil="true"/>
+                        <c:Banco i:nil="true"/>
+                        <c:DigitoAgencia i:nil="true"/>
+                        <c:NumeroConta i:nil="true"/>
+                        <c:PortadorConta i:nil="true"/>
+                        <c:TipoContaBanco>Corrente</c:TipoContaBanco>
+                     </c:DadosBancarios>
+                     <c:Email/>
+                     <c:EmailFatura i:nil="true"/>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro>IPE</d:Bairro>
+                        <d:CEP>83055320</d:CEP>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>59749</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>412550</e:CodigoIntegracao>
+                           <e:Descricao>SAO JOSE DOS PINHAIS</e:Descricao>
+                           <e:IBGE>4125506</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao i:nil="true"/>
+                           <e:SiglaUF>PR</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento i:nil="true"/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares>
+                           <d:Bairro>IPE</d:Bairro>
+                           <d:Complemento i:nil="true"/>
+                           <d:Endereco>AV. RUI BARBOSA, 1900 -</d:Endereco>
+                           <d:NumeroCarga i:nil="true"/>
+                           <d:NumeroLote i:nil="true"/>
+                        </d:DadosComplementares>
+                        <d:EnderecoConcatenado>AV. RUI BARBOSA, 1900 -</d:EnderecoConcatenado>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual>9027537968</d:InscricaoEstadual>
+                        <d:Latitude>-25.4961376</d:Latitude>
+                        <d:Logradouro>AV. RUI BARBOSA</d:Logradouro>
+                        <d:Longitude>-49.1629243</d:Longitude>
+                        <d:Numero>1900</d:Numero>
+                        <d:Telefone>4132113100</d:Telefone>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:ExigeAgendamento i:nil="true"/>
+                     <c:ExigeAgendamentoDescarga i:nil="true"/>
+                     <c:ExigirNumeroControleCliente>false</c:ExigirNumeroControleCliente>
+                     <c:ExigirNumeroNumeroReferenciaCliente>false</c:ExigirNumeroNumeroReferenciaCliente>
+                     <c:FormaAgendamento i:nil="true"/>
+                     <c:Fornecedor>false</c:Fornecedor>
+                     <c:GerarCIOT i:nil="true"/>
+                     <c:GrupoPessoa i:nil="true"/>
+                     <c:IM i:nil="true"/>
+                     <c:InativarCliente>false</c:InativarCliente>
+                     <c:IndicadorIE>ContribuinteICMS</c:IndicadorIE>
+                     <c:Latitude i:nil="true"/>
+                     <c:LinkAgendamento i:nil="true"/>
+                     <c:Longitude i:nil="true"/>
+                     <c:MDGCode i:nil="true"/>
+                     <c:MesoRegiao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService"/>
+                     <c:NaoEObrigatorioInformarNfeNaColeta i:nil="true"/>
+                     <c:NaoEnviarParaDocsys>false</c:NaoEnviarParaDocsys>
+                     <c:NaoExigePreenchimentoDeChecklistEntrega i:nil="true"/>
+                     <c:NomeFantasia>ONIZ DIST - SJP</c:NomeFantasia>
+                     <c:NumeroCUITRUIT i:nil="true"/>
+                     <c:NumeroCartaoCIOT i:nil="true"/>
+                     <c:Observacao/>
+                     <c:ParametroRateioFormulaExclusivo>todos</c:ParametroRateioFormulaExclusivo>
+                     <c:Protocolo>90724261000902</c:Protocolo>
+                     <c:RGIE>9027537968</c:RGIE>
+                     <c:RKST i:nil="true"/>
+                     <c:RNTRC i:nil="true"/>
+                     <c:RaioEmMetros>0</c:RaioEmMetros>
+                     <c:RazaoSocial>ONIZ DISTRIBUIDORA S.A.</c:RazaoSocial>
+                     <c:RegimeTributario>NaoInformado</c:RegimeTributario>
+                     <c:RestricaoEntrega i:nil="true"/>
+                     <c:TempoAgendamento i:nil="true"/>
+                     <c:TipoEmissaoCTeDocumentosExclusivo>NaoInformado</c:TipoEmissaoCTeDocumentosExclusivo>
+                     <c:TipoFavorecidoCIOT i:nil="true"/>
+                     <c:TipoPagamentoCIOT i:nil="true"/>
+                     <c:TipoPessoa>Juridica</c:TipoPessoa>
+                     <c:ValidarValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                     <c:ValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                  </b:Remetente>
+                  <b:Reserva i:nil="true"/>
+                  <b:RestricaoEntrega i:nil="true"/>
+                  <b:Resumo i:nil="true"/>
+                  <b:RotaEmbarcador i:nil="true"/>
+                  <b:SenhaAgendamentoEntrega i:nil="true"/>
+                  <b:SetPointVeiculo i:nil="true"/>
+                  <b:SituacaoCarga>AgNFe</b:SituacaoCarga>
+                  <b:SituacaoComercial i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:SituacaoEstoque i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pedido"/>
+                  <b:SituacaoMonitoramento>Finished</b:SituacaoMonitoramento>
+                  <b:StatusCustoExtra>EmAberto</b:StatusCustoExtra>
+                  <b:StatusEXP i:nil="true"/>
+                  <b:StatusPedidoEmbarcador i:nil="true"/>
+                  <b:TaraContainer>0</b:TaraContainer>
+                  <b:Temperatura i:nil="true"/>
+                  <b:TemperaturaObservacao i:nil="true"/>
+                  <b:TerminalPortoDestino i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:TerminalPortoOrigem i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:TipoCalculoCargaFracionada i:nil="true"/>
+                  <b:TipoCargaEmbarcador xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                     <c:CNPJsDoTipoCargaNoEmbarcador xmlns:d="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                     <c:ClasseONU/>
+                     <c:Codigo>0</c:Codigo>
+                     <c:CodigoIntegracao>1000</c:CodigoIntegracao>
+                     <c:CodigoPSNONU/>
+                     <c:Descricao>ALIMENTAR</c:Descricao>
+                     <c:ObservacaoONU/>
+                     <c:SequenciaONU/>
+                  </b:TipoCargaEmbarcador>
+                  <b:TipoCarregamento xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                     <c:CodigoIntegracao/>
+                     <c:Descricao/>
+                  </b:TipoCarregamento>
+                  <b:TipoCobrancaMultimodal>Nenhum</b:TipoCobrancaMultimodal>
+                  <b:TipoContainerReserva i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:TipoDirecionamentoCustoExtra>Nenhum</b:TipoDirecionamentoCustoExtra>
+                  <b:TipoDocumentoAverbacao>Conhecimento</b:TipoDocumentoAverbacao>
+                  <b:TipoEmbarque i:nil="true"/>
+                  <b:TipoMercadoria i:nil="true"/>
+                  <b:TipoModalPropostaCabotagem>Outros</b:TipoModalPropostaCabotagem>
+                  <b:TipoOS i:nil="true"/>
+                  <b:TipoOSConvertido i:nil="true"/>
+                  <b:TipoOperacao xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                     <c:Atualizar>false</c:Atualizar>
+                     <c:BloquearEmissaoDeEntidadeSemCadastro>false</c:BloquearEmissaoDeEntidadeSemCadastro>
+                     <c:BloquearEmissaoDosDestinatario>false</c:BloquearEmissaoDosDestinatario>
+                     <c:CNPJsDaOperacao xmlns:d="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                     <c:CNPJsDestinatariosNaoAutorizados i:nil="true" xmlns:d="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                     <c:Codigo>0</c:Codigo>
+                     <c:CodigoIntegracao>1</c:CodigoIntegracao>
+                     <c:Descricao>VENDA GERAL</c:Descricao>
+                     <c:ModalPropostaMultimodal>Nenhum</c:ModalPropostaMultimodal>
+                     <c:Protocolo>0</c:Protocolo>
+                     <c:TipoCobrancaMultimodal>Nenhum</c:TipoCobrancaMultimodal>
+                     <c:TipoPropostaMultimodal>Nenhum</c:TipoPropostaMultimodal>
+                     <c:TipoServicoMultimodal>Normal</c:TipoServicoMultimodal>
+                  </b:TipoOperacao>
+                  <b:TipoOperacaoPedido i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:TipoPagamento>Pago</b:TipoPagamento>
+                  <b:TipoPaleteCliente i:nil="true"/>
+                  <b:TipoPedido>Entrega</b:TipoPedido>
+                  <b:TipoProbe i:nil="true"/>
+                  <b:TipoPropostaCabotagem>Outros</b:TipoPropostaCabotagem>
+                  <b:TipoPropostaFeeder>Mercosul</b:TipoPropostaFeeder>
+                  <b:TipoRateioProdutos>Nenhum</b:TipoRateioProdutos>
+                  <b:TipoSeguro i:nil="true"/>
+                  <b:TipoServico i:nil="true"/>
+                  <b:TipoServicoCarga i:nil="true"/>
+                  <b:TipoServicoXML i:nil="true"/>
+                  <b:TipoTomador>Remetente</b:TipoTomador>
+                  <b:TipoTomadorCabotagem>Outros</b:TipoTomadorCabotagem>
+                  <b:Tomador xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                     <c:AdicionarComoOutroEndereco>false</c:AdicionarComoOutroEndereco>
+                     <c:AgendamentoExigeNotaFiscal i:nil="true"/>
+                     <c:AtualizarEnderecoPessoa>false</c:AtualizarEnderecoPessoa>
+                     <c:CMDID i:nil="true"/>
+                     <c:CNAE i:nil="true"/>
+                     <c:CPFCNPJ>90.724.261/0009-02</c:CPFCNPJ>
+                     <c:Cliente>false</c:Cliente>
+                     <c:ClienteExterior>false</c:ClienteExterior>
+                     <c:Codigo i:nil="true"/>
+                     <c:CodigoAlternativo i:nil="true"/>
+                     <c:CodigoAtividade>1</c:CodigoAtividade>
+                     <c:CodigoCategoria i:nil="true"/>
+                     <c:CodigoDocumento i:nil="true"/>
+                     <c:CodigoDocumentoFornecedor i:nil="true"/>
+                     <c:CodigoIntegracao>90724261000902</c:CodigoIntegracao>
+                     <c:DadosBancarios>
+                        <c:Agencia i:nil="true"/>
+                        <c:Banco i:nil="true"/>
+                        <c:DigitoAgencia i:nil="true"/>
+                        <c:NumeroConta i:nil="true"/>
+                        <c:PortadorConta i:nil="true"/>
+                        <c:TipoContaBanco>Corrente</c:TipoContaBanco>
+                     </c:DadosBancarios>
+                     <c:Email/>
+                     <c:EmailFatura i:nil="true"/>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro>IPE</d:Bairro>
+                        <d:CEP>83055320</d:CEP>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>59749</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>412550</e:CodigoIntegracao>
+                           <e:Descricao>SAO JOSE DOS PINHAIS</e:Descricao>
+                           <e:IBGE>4125506</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao i:nil="true"/>
+                           <e:SiglaUF>PR</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento i:nil="true"/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares>
+                           <d:Bairro>IPE</d:Bairro>
+                           <d:Complemento i:nil="true"/>
+                           <d:Endereco>AV. RUI BARBOSA, 1900 -</d:Endereco>
+                           <d:NumeroCarga i:nil="true"/>
+                           <d:NumeroLote i:nil="true"/>
+                        </d:DadosComplementares>
+                        <d:EnderecoConcatenado>AV. RUI BARBOSA, 1900 -</d:EnderecoConcatenado>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual>9027537968</d:InscricaoEstadual>
+                        <d:Latitude>-25.4961376</d:Latitude>
+                        <d:Logradouro>AV. RUI BARBOSA</d:Logradouro>
+                        <d:Longitude>-49.1629243</d:Longitude>
+                        <d:Numero>1900</d:Numero>
+                        <d:Telefone>4132113100</d:Telefone>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:ExigeAgendamento i:nil="true"/>
+                     <c:ExigeAgendamentoDescarga i:nil="true"/>
+                     <c:ExigirNumeroControleCliente>false</c:ExigirNumeroControleCliente>
+                     <c:ExigirNumeroNumeroReferenciaCliente>false</c:ExigirNumeroNumeroReferenciaCliente>
+                     <c:FormaAgendamento i:nil="true"/>
+                     <c:Fornecedor>false</c:Fornecedor>
+                     <c:GerarCIOT i:nil="true"/>
+                     <c:GrupoPessoa i:nil="true"/>
+                     <c:IM i:nil="true"/>
+                     <c:InativarCliente>false</c:InativarCliente>
+                     <c:IndicadorIE>ContribuinteICMS</c:IndicadorIE>
+                     <c:Latitude i:nil="true"/>
+                     <c:LinkAgendamento i:nil="true"/>
+                     <c:Longitude i:nil="true"/>
+                     <c:MDGCode i:nil="true"/>
+                     <c:MesoRegiao i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.WebService"/>
+                     <c:NaoEObrigatorioInformarNfeNaColeta i:nil="true"/>
+                     <c:NaoEnviarParaDocsys>false</c:NaoEnviarParaDocsys>
+                     <c:NaoExigePreenchimentoDeChecklistEntrega i:nil="true"/>
+                     <c:NomeFantasia>ONIZ DIST - SJP</c:NomeFantasia>
+                     <c:NumeroCUITRUIT i:nil="true"/>
+                     <c:NumeroCartaoCIOT i:nil="true"/>
+                     <c:Observacao/>
+                     <c:ParametroRateioFormulaExclusivo>todos</c:ParametroRateioFormulaExclusivo>
+                     <c:Protocolo>90724261000902</c:Protocolo>
+                     <c:RGIE>9027537968</c:RGIE>
+                     <c:RKST i:nil="true"/>
+                     <c:RNTRC i:nil="true"/>
+                     <c:RaioEmMetros>0</c:RaioEmMetros>
+                     <c:RazaoSocial>ONIZ DISTRIBUIDORA S.A.</c:RazaoSocial>
+                     <c:RegimeTributario>NaoInformado</c:RegimeTributario>
+                     <c:RestricaoEntrega i:nil="true"/>
+                     <c:TempoAgendamento i:nil="true"/>
+                     <c:TipoEmissaoCTeDocumentosExclusivo>NaoInformado</c:TipoEmissaoCTeDocumentosExclusivo>
+                     <c:TipoFavorecidoCIOT i:nil="true"/>
+                     <c:TipoPagamentoCIOT i:nil="true"/>
+                     <c:TipoPessoa>Juridica</c:TipoPessoa>
+                     <c:ValidarValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                     <c:ValorMinimoMercadoriaPorEntrega i:nil="true"/>
+                  </b:Tomador>
+                  <b:Transbordo i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:TransportadoraEmitente xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                     <c:Atividade>0</c:Atividade>
+                     <c:Ativo i:nil="true"/>
+                     <c:CNPJ>43152609000199</c:CNPJ>
+                     <c:Certificado i:nil="true"/>
+                     <c:Codigo>0</c:Codigo>
+                     <c:CodigoDocumento/>
+                     <c:CodigoIntegracao/>
+                     <c:DadosBancarios i:nil="true"/>
+                     <c:DataValidadeIMO i:nil="true"/>
+                     <c:Emails/>
+                     <c:EmissaoDocumentosForaDoSistema>true</c:EmissaoDocumentosForaDoSistema>
+                     <c:Endereco xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                        <d:Bairro>ZONA RURAL</d:Bairro>
+                        <d:CEP>35340000</d:CEP>
+                        <d:CEPSemFormato i:nil="true"/>
+                        <d:Cidade xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                           <e:Atualizar>false</e:Atualizar>
+                           <e:Codigo>25976</e:Codigo>
+                           <e:CodigoDocumento i:nil="true"/>
+                           <e:CodigoIntegracao>31780</e:CodigoIntegracao>
+                           <e:Descricao>BOM JESUS DO GALHO</e:Descricao>
+                           <e:IBGE>3107802</e:IBGE>
+                           <e:Pais>
+                              <d:CodigoPais>1058</d:CodigoPais>
+                              <d:NomePais>BRASIL</d:NomePais>
+                              <d:SiglaPais>BR</d:SiglaPais>
+                           </e:Pais>
+                           <e:RKST i:nil="true"/>
+                           <e:Regiao i:nil="true"/>
+                           <e:SiglaUF>MG</e:SiglaUF>
+                           <e:TipoEmissaoIntramunicipal>NaoEspecificado</e:TipoEmissaoIntramunicipal>
+                        </d:Cidade>
+                        <d:CodigoIntegracao i:nil="true"/>
+                        <d:CodigoTelefonicoPais i:nil="true"/>
+                        <d:Complemento/>
+                        <d:DDDTelefone i:nil="true"/>
+                        <d:DadosComplementares i:nil="true"/>
+                        <d:EnderecoConcatenado i:nil="true"/>
+                        <d:Estado i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                        <d:InscricaoEstadual i:nil="true"/>
+                        <d:Latitude i:nil="true"/>
+                        <d:Logradouro>CRG GRANDE</d:Logradouro>
+                        <d:Longitude i:nil="true"/>
+                        <d:Numero>S/N</d:Numero>
+                        <d:Telefone>(33) 3321-6722</d:Telefone>
+                        <d:Telefone2 i:nil="true"/>
+                        <d:UF i:nil="true"/>
+                     </c:Endereco>
+                     <c:IE>0041217430059</c:IE>
+                     <c:IMO i:nil="true"/>
+                     <c:InscricaoMunicipal/>
+                     <c:InscricaoST i:nil="true"/>
+                     <c:LiberacaoParaPagamentoAutomatico>false</c:LiberacaoParaPagamentoAutomatico>
+                     <c:NomeFantasia>DIVERSOS.</c:NomeFantasia>
+                     <c:Protocolo>30</c:Protocolo>
+                     <c:RNTRC>54260200</c:RNTRC>
+                     <c:RazaoSocial>DIVERSOS</c:RazaoSocial>
+                     <c:RegimeTributario>NaoInformado</c:RegimeTributario>
+                     <c:SimplesNacional>false</c:SimplesNacional>
+                     <c:TipoCIOT i:nil="true"/>
+                  </b:TransportadoraEmitente>
+                  <b:UsarOutroEnderecoDestino>false</b:UsarOutroEnderecoDestino>
+                  <b:UsarOutroEnderecoOrigem>false</b:UsarOutroEnderecoOrigem>
+                  <b:UsuarioCriacaoRemessa i:nil="true"/>
+                  <b:UtilizarTipoTomadorInformado>false</b:UtilizarTipoTomadorInformado>
+                  <b:ValidarNumeroContainer>false</b:ValidarNumeroContainer>
+                  <b:ValorCusteioSVM>0.00</b:ValorCusteioSVM>
+                  <b:ValorCustoFrete>0</b:ValorCustoFrete>
+                  <b:ValorDescarga>0</b:ValorDescarga>
+                  <b:ValorFrete xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Frete">
+                     <c:ComponentesAdicionais/>
+                     <c:FreteFilialEmissora>0</c:FreteFilialEmissora>
+                     <c:FreteProprio>0.000</c:FreteProprio>
+                     <c:ICMS xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.ICMS">
+                        <d:Aliquota>0.00</d:Aliquota>
+                        <d:CST i:nil="true"/>
+                        <d:ExibirNaDacte>true</d:ExibirNaDacte>
+                        <d:IncluirICMSBC>false</d:IncluirICMSBC>
+                        <d:IncluirICMSBCFreteProprio i:nil="true"/>
+                        <d:ObservacaoCTe/>
+                        <d:PercentualInclusaoBC>0.000</d:PercentualInclusaoBC>
+                        <d:PercentualReducaoBC>0.000</d:PercentualReducaoBC>
+                        <d:SimplesNacional>false</d:SimplesNacional>
+                        <d:ValorBaseCalculoICMS>0.000</d:ValorBaseCalculoICMS>
+                        <d:ValorCreditoPresumido>0.000</d:ValorCreditoPresumido>
+                        <d:ValorICMS>0.0000</d:ValorICMS>
+                        <d:ValorTotalTributos>0</d:ValorTotalTributos>
+                     </c:ICMS>
+                     <c:ISS xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.ISS">
+                        <d:Aliquota>0.00</d:Aliquota>
+                        <d:IncluirISSBaseCalculo>false</d:IncluirISSBaseCalculo>
+                        <d:PercentualRetencao>0.00</d:PercentualRetencao>
+                        <d:ValorBaseCalculoISS>0.00</d:ValorBaseCalculoISS>
+                        <d:ValorISS>0.000</d:ValorISS>
+                        <d:ValorRetencaoISS>0.000</d:ValorRetencaoISS>
+                     </c:ISS>
+                     <c:ValorAReceberSemImpostoIncluso>0</c:ValorAReceberSemImpostoIncluso>
+                     <c:ValorCalculadoPelaTabela>0.00</c:ValorCalculadoPelaTabela>
+                     <c:ValorPrestacaoServico>0.000</c:ValorPrestacaoServico>
+                     <c:ValorTotalAReceber>0.000</c:ValorTotalAReceber>
+                  </b:ValorFrete>
+                  <b:ValorFreteCalculado>false</b:ValorFreteCalculado>
+                  <b:ValorFreteCobradoCliente>0</b:ValorFreteCobradoCliente>
+                  <b:ValorFreteFilialEmissora i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Frete"/>
+                  <b:ValorFreteInformativo>0</b:ValorFreteInformativo>
+                  <b:ValorPedagio>0</b:ValorPedagio>
+                  <b:ValorTaxaDocumento>0.000000</b:ValorTaxaDocumento>
+                  <b:ValorTaxaFeeder>0.00</b:ValorTaxaFeeder>
+                  <b:ValorTotalPaletes>0.000</b:ValorTotalPaletes>
+                  <b:ValorTotalPedido>1753.400000</b:ValorTotalPedido>
+                  <b:ValorTotalProvedor>0</b:ValorTotalProvedor>
+                  <b:Veiculo xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Frota">
+                     <c:Anexos i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                     <c:AnoFabricacao>0</c:AnoFabricacao>
+                     <c:AnoModelo>0</c:AnoModelo>
+                     <c:Ativo>true</c:Ativo>
+                     <c:CapacidadeKG>25000</c:CapacidadeKG>
+                     <c:CapacidadeM3>60</c:CapacidadeM3>
+                     <c:CapacidadeMaximaTanque>0.00</c:CapacidadeMaximaTanque>
+                     <c:CentroCarregamentos i:nil="true"/>
+                     <c:CentroResultado i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Financeiro"/>
+                     <c:Codigo>1052</c:Codigo>
+                     <c:Cor i:nil="true"/>
+                     <c:DataAquisicao/>
+                     <c:DataRetiradaCtrn i:nil="true"/>
+                     <c:DataSuspensaoFim i:nil="true"/>
+                     <c:DataSuspensaoInicio i:nil="true"/>
+                     <c:DataValidadeGR i:nil="true"/>
+                     <c:DescricaoMarcaVeiculo/>
+                     <c:DescricaoModeloVeiculo/>
+                     <c:Equipamentos/>
+                     <c:GrupoPessoaSegmento i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                     <c:KilometragemAtual>0</c:KilometragemAtual>
+                     <c:MaxGross>0</c:MaxGross>
+                     <c:Modelo i:nil="true"/>
+                     <c:ModeloVeicular xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                        <d:Capacidade>0</d:Capacidade>
+                        <d:CodigoAgrupamentoCarga i:nil="true"/>
+                        <d:CodigoIntegracao>81</d:CodigoIntegracao>
+                        <d:CodigoInterno>0</d:CodigoInterno>
+                        <d:Descricao>CARRETA</d:Descricao>
+                        <d:DivisaoCapacidade/>
+                        <d:Protocolo>0</d:Protocolo>
+                        <d:QuantidadeExtraExcedenteTolerado>0.00</d:QuantidadeExtraExcedenteTolerado>
+                        <d:TipoModeloVeicular>Geral</d:TipoModeloVeicular>
+                        <d:ToleranciaExtra>0</d:ToleranciaExtra>
+                     </c:ModeloVeicular>
+                     <c:MotivoBloqueio i:nil="true"/>
+                     <c:Motoristas xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                        <d:Motorista>
+                           <d:Ativo i:nil="true"/>
+                           <d:CPF>47354851396</d:CPF>
+                           <d:CategoriaCNH/>
+                           <d:Codigo>19004</d:Codigo>
+                           <d:CodigoIntegracao/>
+                           <d:DadosBancarios i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                           <d:DataAdmissao/>
+                           <d:DataDemissao i:nil="true"/>
+                           <d:DataEmissaoRG i:nil="true"/>
+                           <d:DataHabilitacao/>
+                           <d:DataNascimento/>
+                           <d:DataSuspensaoFim i:nil="true"/>
+                           <d:DataSuspensaoInicio i:nil="true"/>
+                           <d:DataValidadeGR i:nil="true"/>
+                           <d:DataVencimentoHabilitacao/>
+                           <d:Email/>
+                           <d:Endereco xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                              <e:Bairro/>
+                              <e:CEP/>
+                              <e:CEPSemFormato i:nil="true"/>
+                              <e:Cidade i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                              <e:CodigoIntegracao i:nil="true"/>
+                              <e:CodigoTelefonicoPais i:nil="true"/>
+                              <e:Complemento/>
+                              <e:DDDTelefone i:nil="true"/>
+                              <e:DadosComplementares i:nil="true"/>
+                              <e:EnderecoConcatenado i:nil="true"/>
+                              <e:Estado i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                              <e:InscricaoEstadual i:nil="true"/>
+                              <e:Latitude i:nil="true"/>
+                              <e:Logradouro/>
+                              <e:Longitude i:nil="true"/>
+                              <e:Numero>S/N</e:Numero>
+                              <e:Telefone/>
+                              <e:Telefone2 i:nil="true"/>
+                              <e:UF i:nil="true"/>
+                           </d:Endereco>
+                           <d:Escolaridade i:nil="true"/>
+                           <d:EstadoCivil i:nil="true"/>
+                           <d:EstadoRG/>
+                           <d:ListaContatos i:nil="true"/>
+                           <d:ListaDadosBancarios i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                           <d:MotivoBloqueio i:nil="true"/>
+                           <d:Nome>AGENDA ONIZ</d:Nome>
+                           <d:NumeroCartao/>
+                           <d:NumeroHabilitacao/>
+                           <d:NumeroPISPASEP/>
+                           <d:OrgaoEmissorRG i:nil="true"/>
+                           <d:RG>00000000000000000</d:RG>
+                           <d:SituacaoColaborador i:nil="true"/>
+                           <d:Transportador xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                              <e:Atividade>0</e:Atividade>
+                              <e:Ativo i:nil="true"/>
+                              <e:CNPJ>43152609000199</e:CNPJ>
+                              <e:Certificado i:nil="true"/>
+                              <e:Codigo>0</e:Codigo>
+                              <e:CodigoDocumento/>
+                              <e:CodigoIntegracao/>
+                              <e:DadosBancarios i:nil="true"/>
+                              <e:DataValidadeIMO i:nil="true"/>
+                              <e:Emails/>
+                              <e:EmissaoDocumentosForaDoSistema>true</e:EmissaoDocumentosForaDoSistema>
+                              <e:Endereco xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                                 <f:Bairro>ZONA RURAL</f:Bairro>
+                                 <f:CEP>35340000</f:CEP>
+                                 <f:CEPSemFormato i:nil="true"/>
+                                 <f:Cidade xmlns:g="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                                    <g:Atualizar>false</g:Atualizar>
+                                    <g:Codigo>25976</g:Codigo>
+                                    <g:CodigoDocumento i:nil="true"/>
+                                    <g:CodigoIntegracao>31780</g:CodigoIntegracao>
+                                    <g:Descricao>BOM JESUS DO GALHO</g:Descricao>
+                                    <g:IBGE>3107802</g:IBGE>
+                                    <g:Pais>
+                                       <f:CodigoPais>1058</f:CodigoPais>
+                                       <f:NomePais>BRASIL</f:NomePais>
+                                       <f:SiglaPais>BR</f:SiglaPais>
+                                    </g:Pais>
+                                    <g:RKST i:nil="true"/>
+                                    <g:Regiao i:nil="true"/>
+                                    <g:SiglaUF>MG</g:SiglaUF>
+                                    <g:TipoEmissaoIntramunicipal>NaoEspecificado</g:TipoEmissaoIntramunicipal>
+                                 </f:Cidade>
+                                 <f:CodigoIntegracao i:nil="true"/>
+                                 <f:CodigoTelefonicoPais i:nil="true"/>
+                                 <f:Complemento/>
+                                 <f:DDDTelefone i:nil="true"/>
+                                 <f:DadosComplementares i:nil="true"/>
+                                 <f:EnderecoConcatenado i:nil="true"/>
+                                 <f:Estado i:nil="true" xmlns:g="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                                 <f:InscricaoEstadual i:nil="true"/>
+                                 <f:Latitude i:nil="true"/>
+                                 <f:Logradouro>CRG GRANDE</f:Logradouro>
+                                 <f:Longitude i:nil="true"/>
+                                 <f:Numero>S/N</f:Numero>
+                                 <f:Telefone>(33) 3321-6722</f:Telefone>
+                                 <f:Telefone2 i:nil="true"/>
+                                 <f:UF i:nil="true"/>
+                              </e:Endereco>
+                              <e:IE>0041217430059</e:IE>
+                              <e:IMO i:nil="true"/>
+                              <e:InscricaoMunicipal/>
+                              <e:InscricaoST i:nil="true"/>
+                              <e:LiberacaoParaPagamentoAutomatico>false</e:LiberacaoParaPagamentoAutomatico>
+                              <e:NomeFantasia>DIVERSOS.</e:NomeFantasia>
+                              <e:Protocolo>30</e:Protocolo>
+                              <e:RNTRC>54260200</e:RNTRC>
+                              <e:RazaoSocial>DIVERSOS</e:RazaoSocial>
+                              <e:RegimeTributario>NaoInformado</e:RegimeTributario>
+                              <e:SimplesNacional>false</e:SimplesNacional>
+                              <e:TipoCIOT i:nil="true"/>
+                           </d:Transportador>
+                           <d:UtilizaMultiMobile i:nil="true"/>
+                           <d:tipoMotorista>Todos</d:tipoMotorista>
+                        </d:Motorista>
+                     </c:Motoristas>
+                     <c:NumeroCartaoValePedagio i:nil="true"/>
+                     <c:NumeroChassi/>
+                     <c:NumeroContainer i:nil="true"/>
+                     <c:NumeroEquipamentoRastreador/>
+                     <c:NumeroFrota/>
+                     <c:NumeroMotor/>
+                     <c:OrdemReboque>0</c:OrdemReboque>
+                     <c:Placa>SJP0002</c:Placa>
+                     <c:PossuiRastreador>false</c:PossuiRastreador>
+                     <c:PossuiTagValePedagio i:nil="true"/>
+                     <c:Proprietario i:nil="true"/>
+                     <c:Protocolo>1052</c:Protocolo>
+                     <c:RNTC>0</c:RNTC>
+                     <c:Reboques/>
+                     <c:Renavam>12345678912</c:Renavam>
+                     <c:SegmentoVeiculo i:nil="true"/>
+                     <c:Tara>1</c:Tara>
+                     <c:TaraContainer>0</c:TaraContainer>
+                     <c:TecnologiaRastreador i:nil="true"/>
+                     <c:TipoCarroceria>NaoAplicavel</c:TipoCarroceria>
+                     <c:TipoComunicacaoRastreador i:nil="true"/>
+                     <c:TipoFrota i:nil="true"/>
+                     <c:TipoPropriedadeVeiculo>Proprio</c:TipoPropriedadeVeiculo>
+                     <c:TipoRodado>Outros</c:TipoRodado>
+                     <c:TipoTagValePedagio i:nil="true"/>
+                     <c:TipoVeiculo>Tracao</c:TipoVeiculo>
+                     <c:Transportador xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                        <d:Atividade>0</d:Atividade>
+                        <d:Ativo i:nil="true"/>
+                        <d:CNPJ>43152609000199</d:CNPJ>
+                        <d:Certificado i:nil="true"/>
+                        <d:Codigo>0</d:Codigo>
+                        <d:CodigoDocumento/>
+                        <d:CodigoIntegracao/>
+                        <d:DadosBancarios i:nil="true"/>
+                        <d:DataValidadeIMO i:nil="true"/>
+                        <d:Emails/>
+                        <d:EmissaoDocumentosForaDoSistema>true</d:EmissaoDocumentosForaDoSistema>
+                        <d:Endereco xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                           <e:Bairro>ZONA RURAL</e:Bairro>
+                           <e:CEP>35340000</e:CEP>
+                           <e:CEPSemFormato i:nil="true"/>
+                           <e:Cidade xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                              <f:Atualizar>false</f:Atualizar>
+                              <f:Codigo>25976</f:Codigo>
+                              <f:CodigoDocumento i:nil="true"/>
+                              <f:CodigoIntegracao>31780</f:CodigoIntegracao>
+                              <f:Descricao>BOM JESUS DO GALHO</f:Descricao>
+                              <f:IBGE>3107802</f:IBGE>
+                              <f:Pais>
+                                 <e:CodigoPais>1058</e:CodigoPais>
+                                 <e:NomePais>BRASIL</e:NomePais>
+                                 <e:SiglaPais>BR</e:SiglaPais>
+                              </f:Pais>
+                              <f:RKST i:nil="true"/>
+                              <f:Regiao i:nil="true"/>
+                              <f:SiglaUF>MG</f:SiglaUF>
+                              <f:TipoEmissaoIntramunicipal>NaoEspecificado</f:TipoEmissaoIntramunicipal>
+                           </e:Cidade>
+                           <e:CodigoIntegracao i:nil="true"/>
+                           <e:CodigoTelefonicoPais i:nil="true"/>
+                           <e:Complemento/>
+                           <e:DDDTelefone i:nil="true"/>
+                           <e:DadosComplementares i:nil="true"/>
+                           <e:EnderecoConcatenado i:nil="true"/>
+                           <e:Estado i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                           <e:InscricaoEstadual i:nil="true"/>
+                           <e:Latitude i:nil="true"/>
+                           <e:Logradouro>CRG GRANDE</e:Logradouro>
+                           <e:Longitude i:nil="true"/>
+                           <e:Numero>S/N</e:Numero>
+                           <e:Telefone>(33) 3321-6722</e:Telefone>
+                           <e:Telefone2 i:nil="true"/>
+                           <e:UF i:nil="true"/>
+                        </d:Endereco>
+                        <d:IE>0041217430059</d:IE>
+                        <d:IMO i:nil="true"/>
+                        <d:InscricaoMunicipal/>
+                        <d:InscricaoST i:nil="true"/>
+                        <d:LiberacaoParaPagamentoAutomatico>false</d:LiberacaoParaPagamentoAutomatico>
+                        <d:NomeFantasia>DIVERSOS.</d:NomeFantasia>
+                        <d:Protocolo>30</d:Protocolo>
+                        <d:RNTRC>54260200</d:RNTRC>
+                        <d:RazaoSocial>DIVERSOS</d:RazaoSocial>
+                        <d:RegimeTributario>NaoInformado</d:RegimeTributario>
+                        <d:SimplesNacional>false</d:SimplesNacional>
+                        <d:TipoCIOT i:nil="true"/>
+                     </c:Transportador>
+                     <c:UF>SC</c:UF>
+                     <c:ValorContainerAverbacao>0</c:ValorContainerAverbacao>
+                     <c:XCampo i:nil="true"/>
+                     <c:XTexto i:nil="true"/>
+                  </b:Veiculo>
+                  <b:VeiculoDaNota xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Frota">
+                     <c:Anexos i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                     <c:AnoFabricacao>0</c:AnoFabricacao>
+                     <c:AnoModelo>0</c:AnoModelo>
+                     <c:Ativo>true</c:Ativo>
+                     <c:CapacidadeKG>25000</c:CapacidadeKG>
+                     <c:CapacidadeM3>60</c:CapacidadeM3>
+                     <c:CapacidadeMaximaTanque>0.00</c:CapacidadeMaximaTanque>
+                     <c:CentroCarregamentos i:nil="true"/>
+                     <c:CentroResultado i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Financeiro"/>
+                     <c:Codigo>1052</c:Codigo>
+                     <c:Cor i:nil="true"/>
+                     <c:DataAquisicao/>
+                     <c:DataRetiradaCtrn i:nil="true"/>
+                     <c:DataSuspensaoFim i:nil="true"/>
+                     <c:DataSuspensaoInicio i:nil="true"/>
+                     <c:DataValidadeGR i:nil="true"/>
+                     <c:DescricaoMarcaVeiculo/>
+                     <c:DescricaoModeloVeiculo/>
+                     <c:Equipamentos/>
+                     <c:GrupoPessoaSegmento i:nil="true" xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                     <c:KilometragemAtual>0</c:KilometragemAtual>
+                     <c:MaxGross>0</c:MaxGross>
+                     <c:Modelo i:nil="true"/>
+                     <c:ModeloVeicular xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                        <d:Capacidade>0</d:Capacidade>
+                        <d:CodigoAgrupamentoCarga i:nil="true"/>
+                        <d:CodigoIntegracao>81</d:CodigoIntegracao>
+                        <d:CodigoInterno>0</d:CodigoInterno>
+                        <d:Descricao>CARRETA</d:Descricao>
+                        <d:DivisaoCapacidade/>
+                        <d:Protocolo>0</d:Protocolo>
+                        <d:QuantidadeExtraExcedenteTolerado>0.00</d:QuantidadeExtraExcedenteTolerado>
+                        <d:TipoModeloVeicular>Geral</d:TipoModeloVeicular>
+                        <d:ToleranciaExtra>0</d:ToleranciaExtra>
+                     </c:ModeloVeicular>
+                     <c:MotivoBloqueio i:nil="true"/>
+                     <c:Motoristas xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga">
+                        <d:Motorista>
+                           <d:Ativo i:nil="true"/>
+                           <d:CPF>47354851396</d:CPF>
+                           <d:CategoriaCNH/>
+                           <d:Codigo>19004</d:Codigo>
+                           <d:CodigoIntegracao/>
+                           <d:DadosBancarios i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                           <d:DataAdmissao/>
+                           <d:DataDemissao i:nil="true"/>
+                           <d:DataEmissaoRG i:nil="true"/>
+                           <d:DataHabilitacao/>
+                           <d:DataNascimento/>
+                           <d:DataSuspensaoFim i:nil="true"/>
+                           <d:DataSuspensaoInicio i:nil="true"/>
+                           <d:DataValidadeGR i:nil="true"/>
+                           <d:DataVencimentoHabilitacao/>
+                           <d:Email/>
+                           <d:Endereco xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                              <e:Bairro/>
+                              <e:CEP/>
+                              <e:CEPSemFormato i:nil="true"/>
+                              <e:Cidade i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                              <e:CodigoIntegracao i:nil="true"/>
+                              <e:CodigoTelefonicoPais i:nil="true"/>
+                              <e:Complemento/>
+                              <e:DDDTelefone i:nil="true"/>
+                              <e:DadosComplementares i:nil="true"/>
+                              <e:EnderecoConcatenado i:nil="true"/>
+                              <e:Estado i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                              <e:InscricaoEstadual i:nil="true"/>
+                              <e:Latitude i:nil="true"/>
+                              <e:Logradouro/>
+                              <e:Longitude i:nil="true"/>
+                              <e:Numero>S/N</e:Numero>
+                              <e:Telefone/>
+                              <e:Telefone2 i:nil="true"/>
+                              <e:UF i:nil="true"/>
+                           </d:Endereco>
+                           <d:Escolaridade i:nil="true"/>
+                           <d:EstadoCivil i:nil="true"/>
+                           <d:EstadoRG/>
+                           <d:ListaContatos i:nil="true"/>
+                           <d:ListaDadosBancarios i:nil="true" xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas"/>
+                           <d:MotivoBloqueio i:nil="true"/>
+                           <d:Nome>AGENDA ONIZ</d:Nome>
+                           <d:NumeroCartao/>
+                           <d:NumeroHabilitacao/>
+                           <d:NumeroPISPASEP/>
+                           <d:OrgaoEmissorRG i:nil="true"/>
+                           <d:RG>00000000000000000</d:RG>
+                           <d:SituacaoColaborador i:nil="true"/>
+                           <d:Transportador xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                              <e:Atividade>0</e:Atividade>
+                              <e:Ativo i:nil="true"/>
+                              <e:CNPJ>43152609000199</e:CNPJ>
+                              <e:Certificado i:nil="true"/>
+                              <e:Codigo>0</e:Codigo>
+                              <e:CodigoDocumento/>
+                              <e:CodigoIntegracao/>
+                              <e:DadosBancarios i:nil="true"/>
+                              <e:DataValidadeIMO i:nil="true"/>
+                              <e:Emails/>
+                              <e:EmissaoDocumentosForaDoSistema>true</e:EmissaoDocumentosForaDoSistema>
+                              <e:Endereco xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                                 <f:Bairro>ZONA RURAL</f:Bairro>
+                                 <f:CEP>35340000</f:CEP>
+                                 <f:CEPSemFormato i:nil="true"/>
+                                 <f:Cidade xmlns:g="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                                    <g:Atualizar>false</g:Atualizar>
+                                    <g:Codigo>25976</g:Codigo>
+                                    <g:CodigoDocumento i:nil="true"/>
+                                    <g:CodigoIntegracao>31780</g:CodigoIntegracao>
+                                    <g:Descricao>BOM JESUS DO GALHO</g:Descricao>
+                                    <g:IBGE>3107802</g:IBGE>
+                                    <g:Pais>
+                                       <f:CodigoPais>1058</f:CodigoPais>
+                                       <f:NomePais>BRASIL</f:NomePais>
+                                       <f:SiglaPais>BR</f:SiglaPais>
+                                    </g:Pais>
+                                    <g:RKST i:nil="true"/>
+                                    <g:Regiao i:nil="true"/>
+                                    <g:SiglaUF>MG</g:SiglaUF>
+                                    <g:TipoEmissaoIntramunicipal>NaoEspecificado</g:TipoEmissaoIntramunicipal>
+                                 </f:Cidade>
+                                 <f:CodigoIntegracao i:nil="true"/>
+                                 <f:CodigoTelefonicoPais i:nil="true"/>
+                                 <f:Complemento/>
+                                 <f:DDDTelefone i:nil="true"/>
+                                 <f:DadosComplementares i:nil="true"/>
+                                 <f:EnderecoConcatenado i:nil="true"/>
+                                 <f:Estado i:nil="true" xmlns:g="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                                 <f:InscricaoEstadual i:nil="true"/>
+                                 <f:Latitude i:nil="true"/>
+                                 <f:Logradouro>CRG GRANDE</f:Logradouro>
+                                 <f:Longitude i:nil="true"/>
+                                 <f:Numero>S/N</f:Numero>
+                                 <f:Telefone>(33) 3321-6722</f:Telefone>
+                                 <f:Telefone2 i:nil="true"/>
+                                 <f:UF i:nil="true"/>
+                              </e:Endereco>
+                              <e:IE>0041217430059</e:IE>
+                              <e:IMO i:nil="true"/>
+                              <e:InscricaoMunicipal/>
+                              <e:InscricaoST i:nil="true"/>
+                              <e:LiberacaoParaPagamentoAutomatico>false</e:LiberacaoParaPagamentoAutomatico>
+                              <e:NomeFantasia>DIVERSOS.</e:NomeFantasia>
+                              <e:Protocolo>30</e:Protocolo>
+                              <e:RNTRC>54260200</e:RNTRC>
+                              <e:RazaoSocial>DIVERSOS</e:RazaoSocial>
+                              <e:RegimeTributario>NaoInformado</e:RegimeTributario>
+                              <e:SimplesNacional>false</e:SimplesNacional>
+                              <e:TipoCIOT i:nil="true"/>
+                           </d:Transportador>
+                           <d:UtilizaMultiMobile i:nil="true"/>
+                           <d:tipoMotorista>Todos</d:tipoMotorista>
+                        </d:Motorista>
+                     </c:Motoristas>
+                     <c:NumeroCartaoValePedagio i:nil="true"/>
+                     <c:NumeroChassi/>
+                     <c:NumeroContainer i:nil="true"/>
+                     <c:NumeroEquipamentoRastreador/>
+                     <c:NumeroFrota/>
+                     <c:NumeroMotor/>
+                     <c:OrdemReboque>0</c:OrdemReboque>
+                     <c:Placa>SJP0002</c:Placa>
+                     <c:PossuiRastreador>false</c:PossuiRastreador>
+                     <c:PossuiTagValePedagio i:nil="true"/>
+                     <c:Proprietario i:nil="true"/>
+                     <c:Protocolo>1052</c:Protocolo>
+                     <c:RNTC>0</c:RNTC>
+                     <c:Reboques/>
+                     <c:Renavam>12345678912</c:Renavam>
+                     <c:SegmentoVeiculo i:nil="true"/>
+                     <c:Tara>1</c:Tara>
+                     <c:TaraContainer>0</c:TaraContainer>
+                     <c:TecnologiaRastreador i:nil="true"/>
+                     <c:TipoCarroceria>NaoAplicavel</c:TipoCarroceria>
+                     <c:TipoComunicacaoRastreador i:nil="true"/>
+                     <c:TipoFrota i:nil="true"/>
+                     <c:TipoPropriedadeVeiculo>Proprio</c:TipoPropriedadeVeiculo>
+                     <c:TipoRodado>Outros</c:TipoRodado>
+                     <c:TipoTagValePedagio i:nil="true"/>
+                     <c:TipoVeiculo>Tracao</c:TipoVeiculo>
+                     <c:Transportador xmlns:d="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Pessoas">
+                        <d:Atividade>0</d:Atividade>
+                        <d:Ativo i:nil="true"/>
+                        <d:CNPJ>43152609000199</d:CNPJ>
+                        <d:Certificado i:nil="true"/>
+                        <d:Codigo>0</d:Codigo>
+                        <d:CodigoDocumento/>
+                        <d:CodigoIntegracao/>
+                        <d:DadosBancarios i:nil="true"/>
+                        <d:DataValidadeIMO i:nil="true"/>
+                        <d:Emails/>
+                        <d:EmissaoDocumentosForaDoSistema>true</d:EmissaoDocumentosForaDoSistema>
+                        <d:Endereco xmlns:e="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Localidade">
+                           <e:Bairro>ZONA RURAL</e:Bairro>
+                           <e:CEP>35340000</e:CEP>
+                           <e:CEPSemFormato i:nil="true"/>
+                           <e:Cidade xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor">
+                              <f:Atualizar>false</f:Atualizar>
+                              <f:Codigo>25976</f:Codigo>
+                              <f:CodigoDocumento i:nil="true"/>
+                              <f:CodigoIntegracao>31780</f:CodigoIntegracao>
+                              <f:Descricao>BOM JESUS DO GALHO</f:Descricao>
+                              <f:IBGE>3107802</f:IBGE>
+                              <f:Pais>
+                                 <e:CodigoPais>1058</e:CodigoPais>
+                                 <e:NomePais>BRASIL</e:NomePais>
+                                 <e:SiglaPais>BR</e:SiglaPais>
+                              </f:Pais>
+                              <f:RKST i:nil="true"/>
+                              <f:Regiao i:nil="true"/>
+                              <f:SiglaUF>MG</f:SiglaUF>
+                              <f:TipoEmissaoIntramunicipal>NaoEspecificado</f:TipoEmissaoIntramunicipal>
+                           </e:Cidade>
+                           <e:CodigoIntegracao i:nil="true"/>
+                           <e:CodigoTelefonicoPais i:nil="true"/>
+                           <e:Complemento/>
+                           <e:DDDTelefone i:nil="true"/>
+                           <e:DadosComplementares i:nil="true"/>
+                           <e:EnderecoConcatenado i:nil="true"/>
+                           <e:Estado i:nil="true" xmlns:f="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor"/>
+                           <e:InscricaoEstadual i:nil="true"/>
+                           <e:Latitude i:nil="true"/>
+                           <e:Logradouro>CRG GRANDE</e:Logradouro>
+                           <e:Longitude i:nil="true"/>
+                           <e:Numero>S/N</e:Numero>
+                           <e:Telefone>(33) 3321-6722</e:Telefone>
+                           <e:Telefone2 i:nil="true"/>
+                           <e:UF i:nil="true"/>
+                        </d:Endereco>
+                        <d:IE>0041217430059</d:IE>
+                        <d:IMO i:nil="true"/>
+                        <d:InscricaoMunicipal/>
+                        <d:InscricaoST i:nil="true"/>
+                        <d:LiberacaoParaPagamentoAutomatico>false</d:LiberacaoParaPagamentoAutomatico>
+                        <d:NomeFantasia>DIVERSOS.</d:NomeFantasia>
+                        <d:Protocolo>30</d:Protocolo>
+                        <d:RNTRC>54260200</d:RNTRC>
+                        <d:RazaoSocial>DIVERSOS</d:RazaoSocial>
+                        <d:RegimeTributario>NaoInformado</d:RegimeTributario>
+                        <d:SimplesNacional>false</d:SimplesNacional>
+                        <d:TipoCIOT i:nil="true"/>
+                     </c:Transportador>
+                     <c:UF>SC</c:UF>
+                     <c:ValorContainerAverbacao>0</c:ValorContainerAverbacao>
+                     <c:XCampo i:nil="true"/>
+                     <c:XTexto i:nil="true"/>
+                  </b:VeiculoDaNota>
+                  <b:Vendedor i:nil="true"/>
+                  <b:ViaTransporte i:nil="true"/>
+                  <b:Viagem i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ViagemJaFoiFinalizada>false</b:ViagemJaFoiFinalizada>
+                  <b:ViagemLongoCurso i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+                  <b:ZonaTransporte i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/Dominio.ObjetosDeValor.Embarcador.Carga"/>
+               </b:CargaIntegracao>
+            </a:Objeto>
+            <a:Status>true</a:Status>
+         </BuscarCargaResult>
+      </BuscarCargaResponse>
+   </s:Body>
+</s:Envelope>

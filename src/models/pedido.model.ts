@@ -1,0 +1,42 @@
+import { ItemPedido } from './item-pedido.model';
+
+export interface Pedido {
+  CodFilial: string;
+  ProtocoloPedido: number;
+  NumeroPedidoEmbarcador: string | null;
+  TipoPedido: string | null;
+  Vendedor: string | null;
+  Observacao: string | null;
+  CodigoRota: string | null;
+  TipoCarga: string | null;
+  TipoOperacao: string | null;
+  DataInicioCarregamento: string | null;
+  DataPrevisaoEntrega: string | null;
+  ExpedidorCnpj: string | null;
+  ExpedidorIe: string | null;
+  ExpedidorRazaoSocial: string | null;
+  ExpedidorEndereco: string | null;
+  ExpedidorBairro: string | null;
+  ExpedidorCep: string | null;
+  ExpedidorLogradouro: string | null;
+  ExpedidorNumero: string | null;
+  ExpedidorCidade: string | null;
+  ExpedidorEstado: string | null;
+  ExpedidorDescricao: string | null;
+  ExpedidorIbge: number | null;
+  RecebedorCnpj: string | null;
+  RecebedorIe: string | null;
+  RecebedorRazaoSocial: string | null;
+  RecebedorEndereco: string | null;
+  RecebedorBairro: string | null;
+  RecebedorCep: string | null;
+  RecebedorLogradouro: string | null;
+  RecebedorNumero: string | null;
+  RecebedorCidade: string | null;
+  RecebedorEstado: string | null;
+  RecebedorDescricao: string | null;
+  OrdemEntrega: number;
+  RecebedorIbge: number;
+  PesoBruto: number;
+  ItensPedido: ItemPedido[];
+}
