@@ -1,4 +1,4 @@
-import { Controller, Post, Get, Delete, Body, Param, Query, Req, BadRequestException, NotFoundException } from '@nestjs/common';
+import { Controller, Post, Get, Delete, Body, Param, Query, Req, BadRequestException, NotFoundException, Headers as NestHeaders } from '@nestjs/common';
 import type { Request } from 'express';
 import { CargasService } from './cargas.service';
 import type { Carregamento } from '../models/carregamento.model';
@@ -61,17 +61,14 @@ export class CargasController {
 
   @Get('protocolo/:protocoloCarga')
   async consultarCargasPorProtocolo(
-    @Req() req: Request,
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
     @Param('protocoloCarga') protocoloCarga: number,
     @Query('enviarSomentePedidos') enviarSomentePedidos: boolean = false,
-  ): Promise<any> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  ) {
     if (!baseUrl || !token) {
-      throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
+      throw new BadRequestException('Headers baseUrl and token are required.');
     }
-
     const resultado = await this.cargasService.consultarCargasPorProtocolo(baseUrl, token, protocoloCarga, enviarSomentePedidos);
     if (resultado) {
       return resultado;

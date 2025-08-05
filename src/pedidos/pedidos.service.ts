@@ -11,7 +11,7 @@ export class PedidosService {
     try {
       // Substituindo a chamada axios pela chamada ao MultiEmbarcadorService
       const payload = { token: token, protocolo: protocoloPedido };
-      const response = await this.multiEmbarcadorService.consultarPedidos(payload);
+      const response = await this.multiEmbarcadorService.consultarPedidos(baseUrl, token, payload);
       // Pode ser necessário adaptar a resposta do SOAP para o formato esperado
       return response;
     } catch (error) {

@@ -4,43 +4,30 @@ import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class MultiEmbarcadorService {
-  private baseUrl: string;
-  private token: string;
+  constructor() {}
 
-  constructor(private configService: ConfigService) {
-    const baseUrl = this.configService.get<string>('MULTIEMBARCADOR_BASE_URL');
-    if (!baseUrl) {
-      throw new Error('MULTIEMBARCADOR_BASE_URL is not defined');
-    }
-    this.baseUrl = baseUrl;
-    const token = this.configService.get<string>('MULTIEMBARCADOR_TOKEN');
-    if (!token) {
-      throw new Error('MULTIEMBARCADOR_TOKEN is not defined');
-    }
-    this.token = token;
-  }
 
-  private async createSoapClient(serviceName: string): Promise<soap.Client> {
-    const wsdlUrl = `${this.baseUrl}/${serviceName}.svc?wsdl`;
+  private async createSoapClient(baseUrl: string, token: string, serviceName: string): Promise<soap.Client> {
+    const wsdlUrl = `${baseUrl}/${serviceName}.svc?wsdl`;
     const client = await soap.createClientAsync(wsdlUrl);
-    client.addSoapHeader(`<Token xmlns="Token">${this.token}</Token>`);
+    client.addSoapHeader(`<Token xmlns="Token">${token}</Token>`);
     return client;
   }
 
-  async consultarCargas(payload: any): Promise<any> {
-    const client = await this.createSoapClient('Cargas');
+  async consultarCargas(baseUrl: string, token: string, payload: any): Promise<any> {
+    const client = await this.createSoapClient(baseUrl, token, 'Cargas');
     const [result] = await client.BuscarCargaAsync({ protocolo: { protocoloIntegracaoCarga: payload.protocoloIntegracaoCarga } });
     return result;
   }
 
-  async consultarNotas(payload: any): Promise<any> {
-    const client = await this.createSoapClient('NFe');
+  async consultarNotas(baseUrl: string, token: string, payload: any): Promise<any> {
+    const client = await this.createSoapClient(baseUrl, token, 'NFe');
     const [result] = await client.ConsultarNotasAsync(payload);
     return result;
   }
 
-  async consultarPedidos(payload: any): Promise<any> {
-    const client = await this.createSoapClient('Pedidos');
+  async consultarPedidos(baseUrl: string, token: string, payload: any): Promise<any> {
+    const client = await this.createSoapClient(baseUrl, token, 'Pedidos');
     const [result] = await client.ConsultarPedidosAsync(payload);
     return result;
   }

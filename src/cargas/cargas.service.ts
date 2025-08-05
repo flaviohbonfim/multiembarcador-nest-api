@@ -43,7 +43,7 @@ export class CargasService {
     try {
       // Substituindo a chamada axios pela chamada ao MultiEmbarcadorService
       const payload = { protocoloIntegracaoCarga: protocoloCarga };
-      const soapResponse = await this.multiEmbarcadorService.consultarCargas(payload);
+      const soapResponse = await this.multiEmbarcadorService.consultarCargas(baseUrl, token, payload);
   
       const transformedResponse = CargasTransformer.transformarCargaIntegracao(soapResponse, enviarSomentePedidos);
       return transformedResponse;

@@ -13,7 +13,7 @@ export class NotasService {
     try {
       // Substituindo a chamada axios pela chamada ao MultiEmbarcadorService
       const payload = { token: token, protocoloCarga: protocoloCarga }; // Adapte conforme a necessidade do serviço SOAP
-      const response = await this.multiEmbarcadorService.consultarNotas(payload);
+      const response = await this.multiEmbarcadorService.consultarNotas(baseUrl, token, payload);
       // Pode ser necessário adaptar a resposta do SOAP para o formato esperado
       return response;
     } catch (error) {
