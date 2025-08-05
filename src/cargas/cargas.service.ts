@@ -41,7 +41,6 @@ export class CargasService {
 
   async consultarCargasPorProtocolo(baseUrl: string, token: string, protocoloCarga: number, enviarSomentePedidos: boolean = false): Promise<any> {
     try {
-      // Substituindo a chamada axios pela chamada ao MultiEmbarcadorService
       const payload = { protocoloIntegracaoCarga: protocoloCarga };
       const soapResponse = await this.multiEmbarcadorService.consultarCargas(baseUrl, token, payload);
   
@@ -61,15 +60,10 @@ export class CargasService {
     enviarSomentePedidos: boolean,
   ): Promise<any> {
     try {
-      const response = await axios.get<any>(`${baseUrl}/api/cargas/numero/${codFilial}/${numeroCarga}`, {
-        headers: {
-          token: token,
-        },
-        params: {
-          enviarSomentePedidos: enviarSomentePedidos,
-        },
-      });
-      return response.data;
+      const payload = { codFilial, numeroCarga };
+      const soapResponse = await this.multiEmbarcadorService.consultarCargasPorNumero(baseUrl, token, payload);
+      const transformedResponse = CargasTransformer.transformarCargaIntegracao(soapResponse, enviarSomentePedidos);
+      return transformedResponse;
     } catch (error) {
       console.error('Erro ao consultar carga por número:', error.message);
       throw error;

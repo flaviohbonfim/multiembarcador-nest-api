@@ -20,6 +20,16 @@ export class MultiEmbarcadorService {
     return result;
   }
 
+  async consultarCargasPorNumero(baseUrl: string, token: string, payload: any): Promise<any> {
+    const client = await this.createSoapClient(baseUrl, token, 'Cargas');
+    const [result] = await client.BuscarCargaPorCodigosIntegracaoAsync({ codigosIntegracao: {
+      CodigoIntegracaoFilial: payload.codFilial,
+      NumeroCarga: payload.numeroCarga, 
+     }
+    });
+    return result;
+  }
+
   async consultarNotas(baseUrl: string, token: string, payload: any): Promise<any> {
     const client = await this.createSoapClient(baseUrl, token, 'NFe');
     const [result] = await client.ConsultarNotasAsync(payload);

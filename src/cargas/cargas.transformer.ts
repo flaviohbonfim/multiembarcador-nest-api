@@ -147,7 +147,7 @@ export class CargasTransformer {
   static transformarCargaIntegracao(soapResponse: any, enviarSomentePedidos: boolean = false): Carregamento | null {
     // A resposta SOAP já vem tratada do service, contendo o objeto de resultado principal.
     // Ex: { BuscarCargaResult: { Objeto: [...] } }
-    const buscarCargaResult = soapResponse?.BuscarCargaResult;
+    const buscarCargaResult = soapResponse?.BuscarCargaResult || soapResponse?.BuscarCargaPorCodigosIntegracaoResult;
     if (!buscarCargaResult?.Objeto) {
       return null;
     }
