@@ -1,5 +1,4 @@
-import { Controller, Get, Post, Body, Param, Req, BadRequestException } from '@nestjs/common';
-import type { Request } from 'express';
+import { Controller, Get, Post, Body, Param, BadRequestException, Headers as NestHeaders } from '@nestjs/common';
 import { NotasService } from './notas.service';
 import type { ConsultarNotasRequest } from '../models/consultar-notas-request.model';
 import { DadosNotaFiscal } from '../models/dados-nota-fiscal.model';
@@ -11,10 +10,11 @@ export class NotasController {
   constructor(private readonly notasService: NotasService) {}
 
   @Get('protocolo/:protocoloCarga')
-  async consultarNotaPorProtocolo(@Req() req: Request, @Param('protocoloCarga') protocoloCarga: number): Promise<BuscarNotasFiscaisResponse | string> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  async consultarNotaPorProtocolo(
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
+    @Param('protocoloCarga') protocoloCarga: number,
+  ): Promise<BuscarNotasFiscaisResponse | string> {
     if (!baseUrl || !token) {
       throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
     }
@@ -27,10 +27,11 @@ export class NotasController {
   }
 
   @Post('chave')
-  async consultarNotasPorChavesAcesso(@Req() req: Request, @Body() requestBody: ConsultarNotasRequest): Promise<BuscarNotasFiscaisResponse | string> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  async consultarNotasPorChavesAcesso(
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
+    @Body() requestBody: ConsultarNotasRequest,
+  ): Promise<BuscarNotasFiscaisResponse | string> {
     if (!baseUrl || !token) {
       throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
     }
@@ -43,10 +44,11 @@ export class NotasController {
   }
 
   @Post('dados')
-  async enviarDadosNotaFiscal(@Req() req: Request, @Body() requestBody: DadosNotaFiscal[]): Promise<EnviarDadosNotasFiscaisResponse | string> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  async enviarDadosNotaFiscal(
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
+    @Body() requestBody: DadosNotaFiscal[],
+  ): Promise<EnviarDadosNotasFiscaisResponse | string> {
     if (!baseUrl || !token) {
       throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
     }

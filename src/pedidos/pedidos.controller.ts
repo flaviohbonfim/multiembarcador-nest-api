@@ -1,5 +1,4 @@
-import { Controller, Get, Post, Body, Param, Req, BadRequestException } from '@nestjs/common';
-import type { Request } from 'express';
+import { Controller, Get, Post, Body, Param, BadRequestException, Headers as NestHeaders } from '@nestjs/common';
 import { PedidosService } from './pedidos.service';
 import type { Pedido } from '../models/pedido.model';
 
@@ -8,10 +7,11 @@ export class PedidosController {
   constructor(private readonly pedidosService: PedidosService) {}
 
   @Get('protocolo/:protocoloPedido')
-  async consultarPedidosPorProtocolo(@Req() req: Request, @Param('protocoloPedido') protocoloPedido: number): Promise<Pedido | string> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  async consultarPedidosPorProtocolo(
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
+    @Param('protocoloPedido') protocoloPedido: number,
+  ): Promise<Pedido | string> {
     if (!baseUrl || !token) {
       throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
     }
@@ -24,10 +24,11 @@ export class PedidosController {
   }
 
   @Post('enviar')
-  async enviarPedido(@Req() req: Request, @Body() pedido: Pedido): Promise<any> {
-    const baseUrl = req.headers['baseurl'] as string;
-    const token = req.headers['token'] as string;
-
+  async enviarPedido(
+    @NestHeaders('baseUrl') baseUrl: string,
+    @NestHeaders('token') token: string,
+    @Body() pedido: Pedido,
+  ): Promise<any> {
     if (!baseUrl || !token) {
       throw new BadRequestException("Headers 'baseUrl' e 'token' são obrigatórios.");
     }
